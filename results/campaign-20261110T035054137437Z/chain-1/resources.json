@@ -1,0 +1,2915 @@
+{
+  "before": {
+    "MemAvailable": 7892520,
+    "SwapFree": 4194044
+  },
+  "max_validator_sum_rss_kib": 1717552,
+  "min_mem_available_kib": 6222560,
+  "min_swap_free_kib": 4194044,
+  "samples": [
+    {
+      "elapsed_s": 0.006,
+      "validators_rss_kib": [
+        7796,
+        7644,
+        6960,
+        3304
+      ],
+      "MemAvailable": 7890192,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 0.511,
+      "validators_rss_kib": [
+        49736,
+        50664,
+        49708,
+        49184
+      ],
+      "MemAvailable": 7803820,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 1.013,
+      "validators_rss_kib": [
+        68664,
+        69696,
+        69136,
+        68536
+      ],
+      "MemAvailable": 7777132,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 1.516,
+      "validators_rss_kib": [
+        88200,
+        94392,
+        92092,
+        87232
+      ],
+      "MemAvailable": 7704944,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 2.019,
+      "validators_rss_kib": [
+        120360,
+        119912,
+        120532,
+        108504
+      ],
+      "MemAvailable": 7610484,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 2.52,
+      "validators_rss_kib": [
+        124540,
+        121660,
+        124372,
+        121656
+      ],
+      "MemAvailable": 7579704,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 3.022,
+      "validators_rss_kib": [
+        127336,
+        126728,
+        127260,
+        124040
+      ],
+      "MemAvailable": 7571984,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 3.524,
+      "validators_rss_kib": [
+        130212,
+        139524,
+        138908,
+        126460
+      ],
+      "MemAvailable": 7543164,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 4.025,
+      "validators_rss_kib": [
+        141568,
+        142980,
+        142304,
+        130252
+      ],
+      "MemAvailable": 7527032,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 4.527,
+      "validators_rss_kib": [
+        145524,
+        148460,
+        147196,
+        139344
+      ],
+      "MemAvailable": 7490088,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 5.029,
+      "validators_rss_kib": [
+        147028,
+        154144,
+        148480,
+        150736
+      ],
+      "MemAvailable": 7476172,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 5.53,
+      "validators_rss_kib": [
+        154732,
+        162996,
+        154320,
+        164836
+      ],
+      "MemAvailable": 7423640,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 6.033,
+      "validators_rss_kib": [
+        170156,
+        182464,
+        171576,
+        166892
+      ],
+      "MemAvailable": 7351444,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 6.535,
+      "validators_rss_kib": [
+        182100,
+        185124,
+        183976,
+        168740
+      ],
+      "MemAvailable": 7307452,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 7.039,
+      "validators_rss_kib": [
+        183796,
+        186836,
+        186176,
+        175252
+      ],
+      "MemAvailable": 7293472,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 7.541,
+      "validators_rss_kib": [
+        186084,
+        208732,
+        188296,
+        189744
+      ],
+      "MemAvailable": 7263796,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 8.044,
+      "validators_rss_kib": [
+        204128,
+        211964,
+        206252,
+        203144
+      ],
+      "MemAvailable": 7224200,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 8.545,
+      "validators_rss_kib": [
+        206948,
+        214080,
+        206152,
+        207724
+      ],
+      "MemAvailable": 7204768,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 9.047,
+      "validators_rss_kib": [
+        210804,
+        216600,
+        209896,
+        210000
+      ],
+      "MemAvailable": 7203248,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 9.548,
+      "validators_rss_kib": [
+        220096,
+        223164,
+        219896,
+        213832
+      ],
+      "MemAvailable": 7175560,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 10.05,
+      "validators_rss_kib": [
+        232200,
+        229080,
+        231024,
+        219148
+      ],
+      "MemAvailable": 7143540,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 10.551,
+      "validators_rss_kib": [
+        248196,
+        241916,
+        244904,
+        237884
+      ],
+      "MemAvailable": 7087652,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 11.053,
+      "validators_rss_kib": [
+        249428,
+        243356,
+        246232,
+        238956
+      ],
+      "MemAvailable": 7074576,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 11.557,
+      "validators_rss_kib": [
+        251588,
+        246684,
+        248296,
+        240784
+      ],
+      "MemAvailable": 7064848,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 12.058,
+      "validators_rss_kib": [
+        253836,
+        254636,
+        250704,
+        253156
+      ],
+      "MemAvailable": 7023980,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 12.566,
+      "validators_rss_kib": [
+        260208,
+        256292,
+        257120,
+        260324
+      ],
+      "MemAvailable": 6993108,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 13.068,
+      "validators_rss_kib": [
+        265472,
+        261920,
+        264500,
+        267476
+      ],
+      "MemAvailable": 6975156,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 13.57,
+      "validators_rss_kib": [
+        267280,
+        265448,
+        266140,
+        269332
+      ],
+      "MemAvailable": 6960384,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 14.072,
+      "validators_rss_kib": [
+        270652,
+        272944,
+        271008,
+        278900
+      ],
+      "MemAvailable": 6900604,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 14.574,
+      "validators_rss_kib": [
+        273824,
+        284248,
+        278628,
+        287228
+      ],
+      "MemAvailable": 6873760,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 15.077,
+      "validators_rss_kib": [
+        276348,
+        275576,
+        275824,
+        313332
+      ],
+      "MemAvailable": 6837280,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 15.578,
+      "validators_rss_kib": [
+        277932,
+        285084,
+        276984,
+        284724
+      ],
+      "MemAvailable": 6823564,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 16.08,
+      "validators_rss_kib": [
+        308840,
+        330572,
+        328256,
+        335896
+      ],
+      "MemAvailable": 6640264,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 16.582,
+      "validators_rss_kib": [
+        336704,
+        339880,
+        331380,
+        339448
+      ],
+      "MemAvailable": 6613240,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 17.084,
+      "validators_rss_kib": [
+        340048,
+        344088,
+        335652,
+        342520
+      ],
+      "MemAvailable": 6602808,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 17.586,
+      "validators_rss_kib": [
+        342060,
+        346512,
+        338096,
+        344800
+      ],
+      "MemAvailable": 6581164,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 18.088,
+      "validators_rss_kib": [
+        344128,
+        349028,
+        347128,
+        347392
+      ],
+      "MemAvailable": 6563920,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 18.592,
+      "validators_rss_kib": [
+        346112,
+        350776,
+        352204,
+        349616
+      ],
+      "MemAvailable": 6532916,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 19.095,
+      "validators_rss_kib": [
+        347688,
+        352924,
+        353816,
+        351680
+      ],
+      "MemAvailable": 6517528,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 19.597,
+      "validators_rss_kib": [
+        352836,
+        353696,
+        356532,
+        365736
+      ],
+      "MemAvailable": 6502768,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 20.099,
+      "validators_rss_kib": [
+        366592,
+        355480,
+        361020,
+        369276
+      ],
+      "MemAvailable": 6502832,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 20.601,
+      "validators_rss_kib": [
+        379384,
+        356940,
+        367484,
+        370440
+      ],
+      "MemAvailable": 6494340,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 21.102,
+      "validators_rss_kib": [
+        384004,
+        358804,
+        367976,
+        370620
+      ],
+      "MemAvailable": 6501544,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 21.603,
+      "validators_rss_kib": [
+        384040,
+        367736,
+        371168,
+        371116
+      ],
+      "MemAvailable": 6494196,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 22.104,
+      "validators_rss_kib": [
+        384372,
+        372456,
+        375260,
+        374972
+      ],
+      "MemAvailable": 6490168,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 22.606,
+      "validators_rss_kib": [
+        384760,
+        372736,
+        375676,
+        377332
+      ],
+      "MemAvailable": 6482280,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 23.108,
+      "validators_rss_kib": [
+        385120,
+        373032,
+        380088,
+        377692
+      ],
+      "MemAvailable": 6481244,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 23.61,
+      "validators_rss_kib": [
+        385448,
+        379296,
+        381340,
+        378000
+      ],
+      "MemAvailable": 6452296,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 24.113,
+      "validators_rss_kib": [
+        386028,
+        380576,
+        399176,
+        379496
+      ],
+      "MemAvailable": 6421220,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 24.615,
+      "validators_rss_kib": [
+        387052,
+        381604,
+        402080,
+        380872
+      ],
+      "MemAvailable": 6409028,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 25.116,
+      "validators_rss_kib": [
+        387672,
+        382956,
+        402612,
+        382168
+      ],
+      "MemAvailable": 6398144,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 25.618,
+      "validators_rss_kib": [
+        388908,
+        384880,
+        403376,
+        383604
+      ],
+      "MemAvailable": 6393100,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 26.121,
+      "validators_rss_kib": [
+        396300,
+        386032,
+        406460,
+        385228
+      ],
+      "MemAvailable": 6389396,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 26.622,
+      "validators_rss_kib": [
+        409720,
+        391616,
+        410540,
+        386560
+      ],
+      "MemAvailable": 6364712,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 27.124,
+      "validators_rss_kib": [
+        417916,
+        393008,
+        413824,
+        388604
+      ],
+      "MemAvailable": 6352168,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 27.625,
+      "validators_rss_kib": [
+        417984,
+        393032,
+        414244,
+        388668
+      ],
+      "MemAvailable": 6346260,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 28.126,
+      "validators_rss_kib": [
+        418712,
+        393460,
+        414652,
+        389200
+      ],
+      "MemAvailable": 6343872,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 28.627,
+      "validators_rss_kib": [
+        418728,
+        393460,
+        415192,
+        389276
+      ],
+      "MemAvailable": 6338472,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 29.168,
+      "validators_rss_kib": [
+        419180,
+        394276,
+        415820,
+        390468
+      ],
+      "MemAvailable": 6335840,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 29.67,
+      "validators_rss_kib": [
+        419376,
+        394344,
+        416240,
+        391588
+      ],
+      "MemAvailable": 6314932,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 30.171,
+      "validators_rss_kib": [
+        419644,
+        394668,
+        390236,
+        391920
+      ],
+      "MemAvailable": 6329640,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 30.672,
+      "validators_rss_kib": [
+        419852,
+        394800,
+        390260,
+        391956
+      ],
+      "MemAvailable": 6347860,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 31.174,
+      "validators_rss_kib": [
+        420380,
+        395080,
+        390376,
+        392156
+      ],
+      "MemAvailable": 6348444,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 31.675,
+      "validators_rss_kib": [
+        420380,
+        395080,
+        390956,
+        392172
+      ],
+      "MemAvailable": 6343464,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 32.176,
+      "validators_rss_kib": [
+        420828,
+        395424,
+        391040,
+        392824
+      ],
+      "MemAvailable": 6343424,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 32.677,
+      "validators_rss_kib": [
+        420828,
+        395424,
+        391156,
+        392844
+      ],
+      "MemAvailable": 6355044,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 33.179,
+      "validators_rss_kib": [
+        421196,
+        395720,
+        391344,
+        393664
+      ],
+      "MemAvailable": 6354140,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 33.68,
+      "validators_rss_kib": [
+        421256,
+        395764,
+        391400,
+        395304
+      ],
+      "MemAvailable": 6353644,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 34.182,
+      "validators_rss_kib": [
+        421556,
+        396148,
+        391744,
+        395552
+      ],
+      "MemAvailable": 6353296,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 34.683,
+      "validators_rss_kib": [
+        421564,
+        396156,
+        391964,
+        395572
+      ],
+      "MemAvailable": 6352336,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 35.184,
+      "validators_rss_kib": [
+        421804,
+        396324,
+        395920,
+        395884
+      ],
+      "MemAvailable": 6355912,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 35.685,
+      "validators_rss_kib": [
+        421812,
+        396340,
+        396148,
+        395916
+      ],
+      "MemAvailable": 6344604,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 36.186,
+      "validators_rss_kib": [
+        422084,
+        396752,
+        396540,
+        396140
+      ],
+      "MemAvailable": 6349468,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 36.688,
+      "validators_rss_kib": [
+        422132,
+        396760,
+        397044,
+        396208
+      ],
+      "MemAvailable": 6337152,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 37.189,
+      "validators_rss_kib": [
+        422692,
+        396996,
+        397572,
+        396524
+      ],
+      "MemAvailable": 6324424,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 37.692,
+      "validators_rss_kib": [
+        422736,
+        397012,
+        397660,
+        396560
+      ],
+      "MemAvailable": 6317656,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 38.193,
+      "validators_rss_kib": [
+        423048,
+        397276,
+        397960,
+        396736
+      ],
+      "MemAvailable": 6308988,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 38.694,
+      "validators_rss_kib": [
+        423056,
+        397296,
+        397960,
+        396760
+      ],
+      "MemAvailable": 6333752,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 39.195,
+      "validators_rss_kib": [
+        397188,
+        397804,
+        398164,
+        396920
+      ],
+      "MemAvailable": 6364624,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 39.696,
+      "validators_rss_kib": [
+        397212,
+        397848,
+        398244,
+        396928
+      ],
+      "MemAvailable": 6364688,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 40.198,
+      "validators_rss_kib": [
+        397232,
+        398164,
+        398684,
+        397156
+      ],
+      "MemAvailable": 6373104,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 40.699,
+      "validators_rss_kib": [
+        397232,
+        398180,
+        399452,
+        397172
+      ],
+      "MemAvailable": 6370500,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 41.201,
+      "validators_rss_kib": [
+        397236,
+        399088,
+        399688,
+        397296
+      ],
+      "MemAvailable": 6361636,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 41.702,
+      "validators_rss_kib": [
+        397244,
+        399104,
+        399712,
+        397316
+      ],
+      "MemAvailable": 6359140,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 42.203,
+      "validators_rss_kib": [
+        397248,
+        399244,
+        400016,
+        397432
+      ],
+      "MemAvailable": 6364516,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 42.705,
+      "validators_rss_kib": [
+        397252,
+        399260,
+        400048,
+        397448
+      ],
+      "MemAvailable": 6355972,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 43.23,
+      "validators_rss_kib": [
+        397280,
+        399504,
+        400208,
+        397644
+      ],
+      "MemAvailable": 6352920,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 43.779,
+      "validators_rss_kib": [
+        397304,
+        399568,
+        400332,
+        397700
+      ],
+      "MemAvailable": 6327484,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 44.281,
+      "validators_rss_kib": [
+        397308,
+        399616,
+        400356,
+        397720
+      ],
+      "MemAvailable": 6344068,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 44.783,
+      "validators_rss_kib": [
+        397336,
+        399680,
+        400424,
+        397776
+      ],
+      "MemAvailable": 6336000,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 45.284,
+      "validators_rss_kib": [
+        397516,
+        400460,
+        400948,
+        398148
+      ],
+      "MemAvailable": 6332972,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 45.786,
+      "validators_rss_kib": [
+        397516,
+        400468,
+        401312,
+        398412
+      ],
+      "MemAvailable": 6323728,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 46.289,
+      "validators_rss_kib": [
+        398068,
+        401556,
+        402488,
+        399188
+      ],
+      "MemAvailable": 6322680,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 46.791,
+      "validators_rss_kib": [
+        398776,
+        402684,
+        408652,
+        403316
+      ],
+      "MemAvailable": 6315012,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 47.293,
+      "validators_rss_kib": [
+        398796,
+        402824,
+        408936,
+        403328
+      ],
+      "MemAvailable": 6313048,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 47.798,
+      "validators_rss_kib": [
+        399004,
+        408288,
+        404840,
+        403460
+      ],
+      "MemAvailable": 6316624,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 48.3,
+      "validators_rss_kib": [
+        401120,
+        409292,
+        404948,
+        403856
+      ],
+      "MemAvailable": 6304316,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 48.802,
+      "validators_rss_kib": [
+        401220,
+        409460,
+        405292,
+        403972
+      ],
+      "MemAvailable": 6292784,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 49.313,
+      "validators_rss_kib": [
+        405664,
+        409792,
+        405388,
+        404304
+      ],
+      "MemAvailable": 6269684,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 49.817,
+      "validators_rss_kib": [
+        405984,
+        410172,
+        407656,
+        406868
+      ],
+      "MemAvailable": 6273404,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 50.319,
+      "validators_rss_kib": [
+        406112,
+        410252,
+        407848,
+        407488
+      ],
+      "MemAvailable": 6272068,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 50.821,
+      "validators_rss_kib": [
+        406200,
+        410332,
+        407884,
+        408580
+      ],
+      "MemAvailable": 6297980,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 51.323,
+      "validators_rss_kib": [
+        406228,
+        410332,
+        409216,
+        409628
+      ],
+      "MemAvailable": 6295660,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 51.841,
+      "validators_rss_kib": [
+        406280,
+        410480,
+        409312,
+        410148
+      ],
+      "MemAvailable": 6298816,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 52.342,
+      "validators_rss_kib": [
+        407048,
+        410536,
+        410344,
+        410164
+      ],
+      "MemAvailable": 6293272,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 52.866,
+      "validators_rss_kib": [
+        407412,
+        410660,
+        410424,
+        410304
+      ],
+      "MemAvailable": 6277392,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 53.368,
+      "validators_rss_kib": [
+        407636,
+        410668,
+        410576,
+        410320
+      ],
+      "MemAvailable": 6277396,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 53.869,
+      "validators_rss_kib": [
+        407788,
+        410780,
+        410656,
+        410440
+      ],
+      "MemAvailable": 6294108,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 54.37,
+      "validators_rss_kib": [
+        407792,
+        410796,
+        410684,
+        411456
+      ],
+      "MemAvailable": 6293584,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 54.887,
+      "validators_rss_kib": [
+        407996,
+        410928,
+        411072,
+        411668
+      ],
+      "MemAvailable": 6292712,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 55.388,
+      "validators_rss_kib": [
+        408000,
+        410940,
+        411124,
+        411684
+      ],
+      "MemAvailable": 6292092,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 55.889,
+      "validators_rss_kib": [
+        408068,
+        411028,
+        411372,
+        411756
+      ],
+      "MemAvailable": 6277232,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 56.39,
+      "validators_rss_kib": [
+        408136,
+        411092,
+        411408,
+        411792
+      ],
+      "MemAvailable": 6294812,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 56.891,
+      "validators_rss_kib": [
+        408300,
+        411152,
+        411560,
+        411916
+      ],
+      "MemAvailable": 6297456,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 57.392,
+      "validators_rss_kib": [
+        408300,
+        411184,
+        408524,
+        411920
+      ],
+      "MemAvailable": 6298720,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 57.893,
+      "validators_rss_kib": [
+        408444,
+        411288,
+        408556,
+        412044
+      ],
+      "MemAvailable": 6297940,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 58.394,
+      "validators_rss_kib": [
+        408504,
+        411308,
+        409252,
+        412052
+      ],
+      "MemAvailable": 6292844,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 58.895,
+      "validators_rss_kib": [
+        408588,
+        411340,
+        411004,
+        412108
+      ],
+      "MemAvailable": 6290596,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 59.396,
+      "validators_rss_kib": [
+        408588,
+        411340,
+        411016,
+        412108
+      ],
+      "MemAvailable": 6295096,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 59.897,
+      "validators_rss_kib": [
+        408692,
+        411552,
+        411044,
+        412200
+      ],
+      "MemAvailable": 6296448,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 60.398,
+      "validators_rss_kib": [
+        408696,
+        411568,
+        412200,
+        412204
+      ],
+      "MemAvailable": 6293884,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 60.899,
+      "validators_rss_kib": [
+        408836,
+        411700,
+        412236,
+        412260
+      ],
+      "MemAvailable": 6282104,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 61.401,
+      "validators_rss_kib": [
+        408848,
+        411740,
+        412952,
+        412272
+      ],
+      "MemAvailable": 6280920,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 61.903,
+      "validators_rss_kib": [
+        408892,
+        411812,
+        417336,
+        412348
+      ],
+      "MemAvailable": 6259696,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 62.404,
+      "validators_rss_kib": [
+        408960,
+        411832,
+        417392,
+        415448
+      ],
+      "MemAvailable": 6279552,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 62.906,
+      "validators_rss_kib": [
+        409028,
+        411916,
+        417416,
+        415532
+      ],
+      "MemAvailable": 6283428,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 63.407,
+      "validators_rss_kib": [
+        409076,
+        411920,
+        417436,
+        415800
+      ],
+      "MemAvailable": 6282888,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 63.908,
+      "validators_rss_kib": [
+        409136,
+        411992,
+        417496,
+        416248
+      ],
+      "MemAvailable": 6284564,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 64.409,
+      "validators_rss_kib": [
+        409136,
+        412012,
+        417500,
+        416900
+      ],
+      "MemAvailable": 6273472,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 64.91,
+      "validators_rss_kib": [
+        409160,
+        412040,
+        417536,
+        416920
+      ],
+      "MemAvailable": 6278392,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 65.412,
+      "validators_rss_kib": [
+        409160,
+        412052,
+        417576,
+        416936
+      ],
+      "MemAvailable": 6277612,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 65.914,
+      "validators_rss_kib": [
+        409260,
+        412140,
+        417608,
+        417148
+      ],
+      "MemAvailable": 6279336,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 66.415,
+      "validators_rss_kib": [
+        409260,
+        412144,
+        418164,
+        418572
+      ],
+      "MemAvailable": 6271336,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 66.916,
+      "validators_rss_kib": [
+        409344,
+        412220,
+        418188,
+        418608
+      ],
+      "MemAvailable": 6298644,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 67.417,
+      "validators_rss_kib": [
+        409360,
+        412224,
+        418228,
+        418616
+      ],
+      "MemAvailable": 6285680,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 67.936,
+      "validators_rss_kib": [
+        409412,
+        412288,
+        418248,
+        418684
+      ],
+      "MemAvailable": 6292636,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 68.524,
+      "validators_rss_kib": [
+        409416,
+        412296,
+        418248,
+        418684
+      ],
+      "MemAvailable": 6303820,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 69.025,
+      "validators_rss_kib": [
+        409436,
+        412396,
+        418264,
+        418708
+      ],
+      "MemAvailable": 6302312,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 69.526,
+      "validators_rss_kib": [
+        409436,
+        412416,
+        418276,
+        418740
+      ],
+      "MemAvailable": 6301752,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 70.028,
+      "validators_rss_kib": [
+        409700,
+        412580,
+        418340,
+        418772
+      ],
+      "MemAvailable": 6286848,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 70.531,
+      "validators_rss_kib": [
+        409708,
+        412640,
+        417392,
+        418772
+      ],
+      "MemAvailable": 6266300,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 71.034,
+      "validators_rss_kib": [
+        410000,
+        412812,
+        417404,
+        418776
+      ],
+      "MemAvailable": 6276188,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 71.535,
+      "validators_rss_kib": [
+        410892,
+        413804,
+        417512,
+        418780
+      ],
+      "MemAvailable": 6263092,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 72.037,
+      "validators_rss_kib": [
+        408984,
+        413928,
+        417548,
+        418780
+      ],
+      "MemAvailable": 6257964,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 72.538,
+      "validators_rss_kib": [
+        409000,
+        414216,
+        417564,
+        418780
+      ],
+      "MemAvailable": 6256776,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 73.042,
+      "validators_rss_kib": [
+        409100,
+        414776,
+        417764,
+        418788
+      ],
+      "MemAvailable": 6256808,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 73.544,
+      "validators_rss_kib": [
+        409132,
+        414868,
+        417836,
+        418816
+      ],
+      "MemAvailable": 6253328,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 74.047,
+      "validators_rss_kib": [
+        409164,
+        415012,
+        417888,
+        418868
+      ],
+      "MemAvailable": 6264736,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 74.549,
+      "validators_rss_kib": [
+        409232,
+        415116,
+        418524,
+        418936
+      ],
+      "MemAvailable": 6277844,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 75.051,
+      "validators_rss_kib": [
+        409240,
+        415128,
+        418588,
+        419192
+      ],
+      "MemAvailable": 6277344,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 75.553,
+      "validators_rss_kib": [
+        409904,
+        416700,
+        418572,
+        419868
+      ],
+      "MemAvailable": 6275196,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 76.054,
+      "validators_rss_kib": [
+        409772,
+        416648,
+        418796,
+        419980
+      ],
+      "MemAvailable": 6279420,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 76.555,
+      "validators_rss_kib": [
+        409776,
+        416652,
+        419108,
+        419988
+      ],
+      "MemAvailable": 6291604,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 77.056,
+      "validators_rss_kib": [
+        409796,
+        416728,
+        419132,
+        420036
+      ],
+      "MemAvailable": 6294500,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 77.557,
+      "validators_rss_kib": [
+        409796,
+        416736,
+        419136,
+        420040
+      ],
+      "MemAvailable": 6294616,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 78.058,
+      "validators_rss_kib": [
+        409844,
+        416792,
+        419176,
+        420076
+      ],
+      "MemAvailable": 6289324,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 78.56,
+      "validators_rss_kib": [
+        409848,
+        416904,
+        419176,
+        420076
+      ],
+      "MemAvailable": 6294268,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 79.061,
+      "validators_rss_kib": [
+        409868,
+        416956,
+        419300,
+        420192
+      ],
+      "MemAvailable": 6288460,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 79.562,
+      "validators_rss_kib": [
+        409956,
+        417064,
+        419304,
+        420196
+      ],
+      "MemAvailable": 6274248,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 80.063,
+      "validators_rss_kib": [
+        409964,
+        417140,
+        419416,
+        420336
+      ],
+      "MemAvailable": 6302952,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 80.565,
+      "validators_rss_kib": [
+        410060,
+        417140,
+        419432,
+        420348
+      ],
+      "MemAvailable": 6298844,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 81.066,
+      "validators_rss_kib": [
+        410080,
+        417216,
+        419548,
+        420540
+      ],
+      "MemAvailable": 6300352,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 81.567,
+      "validators_rss_kib": [
+        410216,
+        417224,
+        419732,
+        420556
+      ],
+      "MemAvailable": 6296600,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 82.068,
+      "validators_rss_kib": [
+        410244,
+        417260,
+        419752,
+        420636
+      ],
+      "MemAvailable": 6295788,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 82.569,
+      "validators_rss_kib": [
+        410244,
+        417284,
+        419756,
+        420636
+      ],
+      "MemAvailable": 6313336,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 83.07,
+      "validators_rss_kib": [
+        410260,
+        417332,
+        419788,
+        420672
+      ],
+      "MemAvailable": 6313524,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 83.571,
+      "validators_rss_kib": [
+        410784,
+        417348,
+        419804,
+        420688
+      ],
+      "MemAvailable": 6303964,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 84.072,
+      "validators_rss_kib": [
+        410820,
+        417348,
+        419852,
+        420708
+      ],
+      "MemAvailable": 6313028,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 84.574,
+      "validators_rss_kib": [
+        410824,
+        417348,
+        419856,
+        420716
+      ],
+      "MemAvailable": 6311760,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 85.075,
+      "validators_rss_kib": [
+        410860,
+        417348,
+        419876,
+        420776
+      ],
+      "MemAvailable": 6307204,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 85.577,
+      "validators_rss_kib": [
+        411528,
+        417348,
+        419880,
+        420776
+      ],
+      "MemAvailable": 6297164,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 86.078,
+      "validators_rss_kib": [
+        411552,
+        417352,
+        419912,
+        420848
+      ],
+      "MemAvailable": 6321572,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 86.579,
+      "validators_rss_kib": [
+        411552,
+        417352,
+        419928,
+        420872
+      ],
+      "MemAvailable": 6322192,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 87.081,
+      "validators_rss_kib": [
+        411596,
+        417368,
+        419960,
+        420956
+      ],
+      "MemAvailable": 6321912,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 87.582,
+      "validators_rss_kib": [
+        411600,
+        417368,
+        419972,
+        420956
+      ],
+      "MemAvailable": 6305304,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 88.084,
+      "validators_rss_kib": [
+        411668,
+        417392,
+        420012,
+        420996
+      ],
+      "MemAvailable": 6318820,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 88.585,
+      "validators_rss_kib": [
+        411668,
+        417392,
+        420020,
+        421004
+      ],
+      "MemAvailable": 6322552,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 89.086,
+      "validators_rss_kib": [
+        411684,
+        417424,
+        420128,
+        421008
+      ],
+      "MemAvailable": 6318376,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 89.587,
+      "validators_rss_kib": [
+        411684,
+        417428,
+        420132,
+        421008
+      ],
+      "MemAvailable": 6314328,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 90.088,
+      "validators_rss_kib": [
+        411700,
+        417440,
+        420156,
+        421020
+      ],
+      "MemAvailable": 6324156,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 90.59,
+      "validators_rss_kib": [
+        411700,
+        417440,
+        420160,
+        421024
+      ],
+      "MemAvailable": 6324368,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 91.092,
+      "validators_rss_kib": [
+        411736,
+        417460,
+        420176,
+        421024
+      ],
+      "MemAvailable": 6309100,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 91.593,
+      "validators_rss_kib": [
+        411736,
+        417464,
+        420192,
+        421024
+      ],
+      "MemAvailable": 6307952,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 92.094,
+      "validators_rss_kib": [
+        411752,
+        417468,
+        420212,
+        422124
+      ],
+      "MemAvailable": 6325716,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 92.595,
+      "validators_rss_kib": [
+        409704,
+        417468,
+        420228,
+        422604
+      ],
+      "MemAvailable": 6325392,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 93.096,
+      "validators_rss_kib": [
+        409712,
+        417476,
+        420256,
+        422612
+      ],
+      "MemAvailable": 6324036,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 93.597,
+      "validators_rss_kib": [
+        409712,
+        417480,
+        420268,
+        422612
+      ],
+      "MemAvailable": 6302392,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 94.097,
+      "validators_rss_kib": [
+        409728,
+        417488,
+        420312,
+        422612
+      ],
+      "MemAvailable": 6317160,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 94.598,
+      "validators_rss_kib": [
+        409728,
+        417488,
+        420316,
+        422612
+      ],
+      "MemAvailable": 6320036,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 95.099,
+      "validators_rss_kib": [
+        409744,
+        417496,
+        420388,
+        428324
+      ],
+      "MemAvailable": 6302892,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 95.602,
+      "validators_rss_kib": [
+        409744,
+        417496,
+        420392,
+        432748
+      ],
+      "MemAvailable": 6302136,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 96.103,
+      "validators_rss_kib": [
+        409772,
+        417536,
+        420416,
+        432752
+      ],
+      "MemAvailable": 6305028,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 96.603,
+      "validators_rss_kib": [
+        409772,
+        417540,
+        420780,
+        432776
+      ],
+      "MemAvailable": 6302740,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 97.104,
+      "validators_rss_kib": [
+        409828,
+        417548,
+        420796,
+        432780
+      ],
+      "MemAvailable": 6285148,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 97.605,
+      "validators_rss_kib": [
+        409832,
+        417552,
+        420796,
+        432784
+      ],
+      "MemAvailable": 6312492,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 98.106,
+      "validators_rss_kib": [
+        409844,
+        417572,
+        420812,
+        432784
+      ],
+      "MemAvailable": 6313088,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 98.607,
+      "validators_rss_kib": [
+        409852,
+        417572,
+        420820,
+        432784
+      ],
+      "MemAvailable": 6316040,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 99.108,
+      "validators_rss_kib": [
+        409860,
+        417576,
+        420832,
+        432788
+      ],
+      "MemAvailable": 6302480,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 99.609,
+      "validators_rss_kib": [
+        409864,
+        417576,
+        420868,
+        432788
+      ],
+      "MemAvailable": 6312928,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 100.11,
+      "validators_rss_kib": [
+        409880,
+        417584,
+        420900,
+        432788
+      ],
+      "MemAvailable": 6315148,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 100.611,
+      "validators_rss_kib": [
+        409880,
+        417584,
+        420908,
+        432788
+      ],
+      "MemAvailable": 6316232,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 101.15,
+      "validators_rss_kib": [
+        409920,
+        417592,
+        420928,
+        432788
+      ],
+      "MemAvailable": 6293412,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 101.705,
+      "validators_rss_kib": [
+        409924,
+        417592,
+        425264,
+        432788
+      ],
+      "MemAvailable": 6305348,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 102.219,
+      "validators_rss_kib": [
+        409932,
+        417596,
+        425268,
+        432788
+      ],
+      "MemAvailable": 6302356,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 102.721,
+      "validators_rss_kib": [
+        411336,
+        417600,
+        425268,
+        432792
+      ],
+      "MemAvailable": 6277704,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 103.222,
+      "validators_rss_kib": [
+        411408,
+        417628,
+        425344,
+        432800
+      ],
+      "MemAvailable": 6278484,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 103.723,
+      "validators_rss_kib": [
+        411408,
+        417632,
+        425348,
+        433088
+      ],
+      "MemAvailable": 6286680,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 104.224,
+      "validators_rss_kib": [
+        411512,
+        417704,
+        425408,
+        433248
+      ],
+      "MemAvailable": 6287564,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 104.727,
+      "validators_rss_kib": [
+        411524,
+        417716,
+        425436,
+        433248
+      ],
+      "MemAvailable": 6284592,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 105.228,
+      "validators_rss_kib": [
+        411552,
+        417788,
+        425480,
+        433256
+      ],
+      "MemAvailable": 6289768,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 105.733,
+      "validators_rss_kib": [
+        411560,
+        417796,
+        425488,
+        433332
+      ],
+      "MemAvailable": 6284540,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 106.235,
+      "validators_rss_kib": [
+        411660,
+        417888,
+        425680,
+        433388
+      ],
+      "MemAvailable": 6282312,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 106.738,
+      "validators_rss_kib": [
+        412444,
+        420424,
+        426472,
+        433388
+      ],
+      "MemAvailable": 6273580,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 107.239,
+      "validators_rss_kib": [
+        413404,
+        420460,
+        426820,
+        434136
+      ],
+      "MemAvailable": 6264608,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 107.74,
+      "validators_rss_kib": [
+        413424,
+        420476,
+        426840,
+        433552
+      ],
+      "MemAvailable": 6275588,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 108.242,
+      "validators_rss_kib": [
+        413336,
+        420476,
+        432272,
+        433620
+      ],
+      "MemAvailable": 6270032,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 108.748,
+      "validators_rss_kib": [
+        413392,
+        420484,
+        432312,
+        433632
+      ],
+      "MemAvailable": 6245812,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 109.25,
+      "validators_rss_kib": [
+        413424,
+        420496,
+        432412,
+        433648
+      ],
+      "MemAvailable": 6259272,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 109.752,
+      "validators_rss_kib": [
+        413424,
+        420504,
+        432436,
+        433652
+      ],
+      "MemAvailable": 6259096,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 110.253,
+      "validators_rss_kib": [
+        413428,
+        420504,
+        432440,
+        433652
+      ],
+      "MemAvailable": 6246732,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 110.755,
+      "validators_rss_kib": [
+        413444,
+        420520,
+        432484,
+        433656
+      ],
+      "MemAvailable": 6242448,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 111.256,
+      "validators_rss_kib": [
+        413452,
+        428064,
+        432488,
+        433676
+      ],
+      "MemAvailable": 6250676,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 111.758,
+      "validators_rss_kib": [
+        413468,
+        434556,
+        432528,
+        433684
+      ],
+      "MemAvailable": 6238716,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 112.259,
+      "validators_rss_kib": [
+        413468,
+        434556,
+        432540,
+        433688
+      ],
+      "MemAvailable": 6241984,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 112.76,
+      "validators_rss_kib": [
+        413508,
+        421164,
+        432556,
+        433700
+      ],
+      "MemAvailable": 6245396,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 113.261,
+      "validators_rss_kib": [
+        418720,
+        416128,
+        432576,
+        433708
+      ],
+      "MemAvailable": 6267616,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 113.762,
+      "validators_rss_kib": [
+        420196,
+        416128,
+        432740,
+        433732
+      ],
+      "MemAvailable": 6266748,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 114.263,
+      "validators_rss_kib": [
+        420196,
+        416128,
+        432740,
+        433740
+      ],
+      "MemAvailable": 6253864,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 114.764,
+      "validators_rss_kib": [
+        420212,
+        416136,
+        432740,
+        433744
+      ],
+      "MemAvailable": 6263632,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 115.265,
+      "validators_rss_kib": [
+        420212,
+        416136,
+        432752,
+        433744
+      ],
+      "MemAvailable": 6273436,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 115.768,
+      "validators_rss_kib": [
+        420212,
+        416148,
+        432756,
+        433748
+      ],
+      "MemAvailable": 6267464,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 116.269,
+      "validators_rss_kib": [
+        420276,
+        416148,
+        432760,
+        433764
+      ],
+      "MemAvailable": 6264912,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 116.77,
+      "validators_rss_kib": [
+        420288,
+        416152,
+        432792,
+        433764
+      ],
+      "MemAvailable": 6275260,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 117.271,
+      "validators_rss_kib": [
+        420288,
+        416152,
+        432792,
+        433696
+      ],
+      "MemAvailable": 6271708,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 117.773,
+      "validators_rss_kib": [
+        420288,
+        416152,
+        432812,
+        433768
+      ],
+      "MemAvailable": 6271144,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 118.274,
+      "validators_rss_kib": [
+        420288,
+        416260,
+        432828,
+        434100
+      ],
+      "MemAvailable": 6267644,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 118.777,
+      "validators_rss_kib": [
+        420308,
+        416264,
+        432852,
+        434104
+      ],
+      "MemAvailable": 6240384,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 119.278,
+      "validators_rss_kib": [
+        420308,
+        416272,
+        432852,
+        434104
+      ],
+      "MemAvailable": 6235836,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 119.779,
+      "validators_rss_kib": [
+        420308,
+        416272,
+        432860,
+        434124
+      ],
+      "MemAvailable": 6239460,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 120.281,
+      "validators_rss_kib": [
+        420308,
+        416280,
+        432860,
+        434132
+      ],
+      "MemAvailable": 6234292,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 120.797,
+      "validators_rss_kib": [
+        420320,
+        416280,
+        432896,
+        434148
+      ],
+      "MemAvailable": 6265972,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 121.298,
+      "validators_rss_kib": [
+        420320,
+        416280,
+        432944,
+        434152
+      ],
+      "MemAvailable": 6265632,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 121.799,
+      "validators_rss_kib": [
+        420748,
+        416288,
+        432956,
+        434160
+      ],
+      "MemAvailable": 6259772,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 122.301,
+      "validators_rss_kib": [
+        420748,
+        416288,
+        432992,
+        434160
+      ],
+      "MemAvailable": 6254132,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 122.88,
+      "validators_rss_kib": [
+        420756,
+        416292,
+        433024,
+        434180
+      ],
+      "MemAvailable": 6268648,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 123.567,
+      "validators_rss_kib": [
+        420764,
+        416292,
+        433028,
+        434184
+      ],
+      "MemAvailable": 6265388,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 124.086,
+      "validators_rss_kib": [
+        420768,
+        416296,
+        433060,
+        434184
+      ],
+      "MemAvailable": 6259084,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 124.587,
+      "validators_rss_kib": [
+        420768,
+        416296,
+        433068,
+        434184
+      ],
+      "MemAvailable": 6270468,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 125.089,
+      "validators_rss_kib": [
+        420824,
+        416660,
+        433128,
+        434192
+      ],
+      "MemAvailable": 6271900,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 125.589,
+      "validators_rss_kib": [
+        420824,
+        416700,
+        433136,
+        434192
+      ],
+      "MemAvailable": 6262776,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 126.093,
+      "validators_rss_kib": [
+        420896,
+        416708,
+        433248,
+        434208
+      ],
+      "MemAvailable": 6240768,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 126.595,
+      "validators_rss_kib": [
+        420912,
+        416740,
+        433308,
+        434232
+      ],
+      "MemAvailable": 6253372,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 127.096,
+      "validators_rss_kib": [
+        422184,
+        416764,
+        433324,
+        434280
+      ],
+      "MemAvailable": 6266228,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 127.596,
+      "validators_rss_kib": [
+        422372,
+        416840,
+        433428,
+        434412
+      ],
+      "MemAvailable": 6261540,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 128.098,
+      "validators_rss_kib": [
+        425828,
+        419664,
+        433560,
+        434628
+      ],
+      "MemAvailable": 6255220,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 128.599,
+      "validators_rss_kib": [
+        425896,
+        423068,
+        433620,
+        434632
+      ],
+      "MemAvailable": 6262532,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 129.101,
+      "validators_rss_kib": [
+        425912,
+        423072,
+        433640,
+        434648
+      ],
+      "MemAvailable": 6262352,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 129.603,
+      "validators_rss_kib": [
+        425912,
+        423072,
+        433648,
+        434728
+      ],
+      "MemAvailable": 6251348,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 130.105,
+      "validators_rss_kib": [
+        425924,
+        423072,
+        433664,
+        434764
+      ],
+      "MemAvailable": 6239388,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 130.606,
+      "validators_rss_kib": [
+        425924,
+        423072,
+        433708,
+        434764
+      ],
+      "MemAvailable": 6250848,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 131.125,
+      "validators_rss_kib": [
+        425944,
+        423076,
+        433732,
+        434768
+      ],
+      "MemAvailable": 6250516,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 131.669,
+      "validators_rss_kib": [
+        425948,
+        423092,
+        433736,
+        434776
+      ],
+      "MemAvailable": 6222560,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 132.171,
+      "validators_rss_kib": [
+        424312,
+        423092,
+        433748,
+        434776
+      ],
+      "MemAvailable": 6230896,
+      "SwapFree": 4194044
+    },
+    {
+      "elapsed_s": 132.672,
+      "validators_rss_kib": [
+        424312,
+        423096,
+        433752,
+        434776
+      ],
+      "MemAvailable": 6233696,
+      "SwapFree": 4194044
+    }
+  ]
+}

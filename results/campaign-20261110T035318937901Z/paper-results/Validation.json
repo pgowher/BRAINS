@@ -1,0 +1,22 @@
+{
+  "result_directory": "campaign-20261110T035318937901Z",
+  "case_rows": 1728,
+  "unique_transaction_receipts": 4480,
+  "mode_deployments": 32,
+  "chain_instances": 2,
+  "missing_or_unexpected_decisions": 0,
+  "advance_releases_missing_nominal_cutoff": 0,
+  "advance_acknowledgements_after_nominal_cutoff": 0,
+  "challenge_dispatch_lag_p95_ms": 1.2637499999999895,
+  "challenge_dispatch_lag_max_ms": 32.328,
+  "advance_challenge_dispatch_lag_p95_ms": 0.3,
+  "advance_challenge_dispatch_lag_max_ms": 5.917,
+  "close_batch_dispatch_lag_p95_ms": 3.756,
+  "close_batch_dispatch_lag_max_ms": 4.259,
+  "close_rpc_ack_p95_ms": 339.28700000000003,
+  "challenge_rpc_ack_p95_ms": 55.7970499999998,
+  "validator_peak_sum_rss_gib": 1.81,
+  "minimum_system_available_gib": 5.52,
+  "maximum_swap_growth_kib": 672,
+  "trace_sha256": "dbf0c00b594b86602a41362043c3d12a1b2593248355240b2f5e2d998116a7fb"
+}

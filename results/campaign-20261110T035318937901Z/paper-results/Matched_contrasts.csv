@@ -1,0 +1,5 @@
+workload,mode,reference,advance_pairs,recorded_to_blocked,blocked_to_recorded,recorded_in_both,blocked_in_both,uncontested_pairs,paired_median_latency_change_ms,min_seed_median_latency_change_ms,max_seed_median_latency_change_ms
+quiet,atomic-1,atomic-0,24,2,3,17,2,16,-4.562999999999988,-998.841,497.026
+quiet,atomic-3,atomic-0,24,19,0,0,5,16,1987.0459999999998,998.5255000000002,2017.4360000000001
+burst,atomic-1,atomic-0,96,8,8,3,77,160,10.791999999999916,-917.8600000000001,135.57699999999977
+burst,atomic-3,atomic-0,96,11,0,0,85,160,822.7104999999999,201.91399999999976,1356.611

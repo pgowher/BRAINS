@@ -1,0 +1,236 @@
+2026-11-10 09:21:12.267+0530 | main | INFO  | Besu | Starting Besu
+2026-11-10 09:21:16.278+0530 | main | INFO  | Besu | RPC HTTP JSON-RPC config: JsonRpcConfiguration{enabled=true, port=33147, host=127.0.0.1, corsAllowedDomains=[], hostsAllowlist=[localhost, 127.0.0.1], rpcApis=[ETH, NET, WEB3], authenticationEnabled=false, authenticationCredentialsFile=null, authenticationPublicKeyFile=null, tlsConfiguration=Optional.empty, httpTimeoutSec=30, maxActiveConnections=80, maxBatchSize=1024}
+2026-11-10 09:21:16.288+0530 | main | INFO  | Besu | Bonsai cross-block cache enabled for BAL prefetch reading
+2026-11-10 09:21:16.294+0530 | main | WARN  | Besu | Forcing --bonsai-limit-trie-logs-enabled=false, since it cannot be enabled with --sync-mode=FULL and --data-storage-format=BONSAI.
+2026-11-10 09:21:16.436+0530 | main | INFO  | Besu | Connecting to 3 static nodes.
+2026-11-10 09:21:16.504+0530 | main | WARN  | Besu | Forcing price bump for transaction replacement to 0, since min-gas-price is set to 0
+2026-11-10 09:21:16.510+0530 | main | WARN  | Besu | Forcing tx-pool-min-gas-price=0, since it cannot be greater than the value of min-gas-price
+2026-11-10 09:21:16.690+0530 | main | INFO  | Besu | jemalloc library not found, memory usage may be reduced by installing it
+2026-11-10 09:21:17.267+0530 | main | INFO  | Besu | 
+####################################################################################################
+#                                                                                                  #
+# Besu version 26.10.2                                                                             #
+#                                                                                                  #
+# Configuration:                                                                                   #
+# Network: Custom genesis file                                                                     #
+# /home/gowher/Desktop/BRAINS/results/campaign-20261110T035054137437Z/chain-1/                     #
+# .chain-2urvv7vo/generated/genesis.json                                                           #
+# Network Id: 485127                                                                               #
+# Data storage: Bonsai                                                                             #
+# RocksDB max open files: 1024 (derived from available resources)                                  #
+# Sync mode: Full                                                                                  #
+# Sync min peers: 5                                                                                #
+# P2P Discovery: disabled                                                                          #
+# RPC HTTP APIs: ETH,NET,WEB3                                                                      #
+# RPC HTTP port: 33147                                                                             #
+# Using LAYERED transaction pool implementation                                                    #
+# Using STACKED worldstate update mode                                                             #
+# Opcode optimizations enabled                                                                     #
+# Parallel transaction processing enabled                                                          #
+# BAL pruning enabled (retained BALs: 457568)                                                      #
+#                                                                                                  #
+# Host:                                                                                            #
+# Java: openjdk-java-25                                                                            #
+# Maximum heap size: 0.75 GB                                                                       #
+# OS: linux-x86_64                                                                                 #
+# glibc: 2.43                                                                                      #
+# Total memory: 14.81 GB                                                                           #
+# CPU cores: 12                                                                                    #
+#                                                                                                  #
+# Plugin Registration Summary:                                                                     #
+# No plugins have been registered.                                                                 #
+# TOTAL = 0 of 0 plugins successfully registered.                                                  #
+#                                                                                                  #
+####################################################################################################
+2026-11-10 09:21:17.270+0530 | main | INFO  | Besu | Security Module: localfile
+2026-11-10 09:21:17.273+0530 | main | INFO  | VersionMetadata | Lookup version metadata file in data directory: /home/gowher/Desktop/BRAINS/results/campaign-20261110T035054137437Z/chain-1/.chain-2urvv7vo/validator-2
+2026-11-10 09:21:17.275+0530 | main | INFO  | VersionMetadata | No version data detected. Writing Besu version 26.10.2 to metadata file
+2026-11-10 09:21:17.578+0530 | main | INFO  | Besu | Using the native implementation of alt bn128
+2026-11-10 09:21:17.581+0530 | main | INFO  | Besu | Using the Java implementation of modexp
+2026-11-10 09:21:17.652+0530 | main | INFO  | Besu | Using the native implementation of the signature algorithm
+2026-11-10 09:21:17.666+0530 | main | INFO  | Besu | Using the native implementation of the blake2bf algorithm
+2026-11-10 09:21:18.155+0530 | main | INFO  | Besu | Using the native BoringSSL implementation of p256verify
+2026-11-10 09:21:18.570+0530 | main | WARN  | Besu | Forcing price bump for transaction replacement to 0, since min-gas-price is set to 0
+2026-11-10 09:21:18.574+0530 | main | WARN  | Besu | Forcing tx-pool-min-gas-price=0, since it cannot be greater than the value of min-gas-price
+2026-11-10 09:21:18.581+0530 | main | INFO  | KeyPairUtil | Attempting to load public key from /home/gowher/Desktop/BRAINS/results/campaign-20261110T035054137437Z/chain-1/.chain-2urvv7vo/generated/keys/0xaa0b9f9fd245a1e709127efdd07e75ae33d1ef8b/key
+2026-11-10 09:21:18.657+0530 | main | INFO  | KeyPairUtil | Loaded public key 0x880571a432df7a1e6b83a7b0d35a1a3745b11d66ec6a9048b8766a90e71a834f549ff4ef667ff5f3434a60607ac2017efd348e74f394c632fbffe3c3dcf966df from /home/gowher/Desktop/BRAINS/results/campaign-20261110T035054137437Z/chain-1/.chain-2urvv7vo/generated/keys/0xaa0b9f9fd245a1e709127efdd07e75ae33d1ef8b/key
+2026-11-10 09:21:19.372+0530 | main | INFO  | ProtocolScheduleBuilder | Protocol schedule created with milestones: [Berlin:0]
+2026-11-10 09:21:19.387+0530 | main | INFO  | RocksDBKeyValueStorageFactory | No existing database at /home/gowher/Desktop/BRAINS/results/campaign-20261110T035054137437Z/chain-1/.chain-2urvv7vo/validator-2. Using default metadata for new db versionedStorageFormat=BaseVersionedStorageFormat{format=BONSAI, version=4}
+2026-11-10 09:21:20.108+0530 | main | INFO  | VersionedFlatDbCacheManager | Cache maintenance will trigger asynchronously after 1000 pending tasks
+2026-11-10 09:21:20.129+0530 | main | INFO  | FlatDbStrategyProvider | Flat db mode found FULL
+2026-11-10 09:21:20.140+0530 | main | INFO  | FlatDbStrategyProvider | DB mode with code stored using code hash enabled = true
+2026-11-10 09:21:20.209+0530 | main | INFO  | FlatDbStrategyProvider | Flat db mode found FULL
+2026-11-10 09:21:20.214+0530 | main | INFO  | FlatDbStrategyProvider | DB mode with code stored using code hash enabled = true
+2026-11-10 09:21:20.715+0530 | main | INFO  | BesuControllerBuilder | Adding ChainDataPruner to observe block added events
+2026-11-10 09:21:20.728+0530 | main | INFO  | BesuControllerBuilder | BAL pruning enabled | BALs retained: 457568 | Frequency: 256
+2026-11-10 09:21:20.858+0530 | main | INFO  | TransactionPoolFactory | Enabling transaction pool
+2026-11-10 09:21:20.970+0530 | main | INFO  | BesuControllerBuilder | QBFT is configured, creating initial sync for BFT
+2026-11-10 09:21:20.976+0530 | main | INFO  | BFTPivotSelectorFromPeers | Creating pivot block selector for BFT node
+2026-11-10 09:21:21.171+0530 | main | INFO  | RunnerBuilder | Detecting NAT service.
+2026-11-10 09:21:21.267+0530 | main | INFO  | CompositePeerDiscoveryAgentFactory | Peer discovery mode: BOTH (requested=BOTH, V4=true, V5=true)
+2026-11-10 09:21:22.094+0530 | main | INFO  | Runner | Starting external services ... 
+2026-11-10 09:21:22.097+0530 | main | INFO  | JsonRpcHttpService | Starting JSON-RPC service on 127.0.0.1:33147
+2026-11-10 09:21:22.632+0530 | vert.x-eventloop-thread-1 | INFO  | JsonRpcHttpService | JSON-RPC service started and listening on 127.0.0.1:33147
+2026-11-10 09:21:22.668+0530 | main | INFO  | AutoTransactionLogBloomCachingService | Starting auto transaction log bloom caching service.
+2026-11-10 09:21:22.683+0530 | main | INFO  | LogBloomCacheMetadata | Lookup cache metadata file in data directory: /home/gowher/Desktop/BRAINS/results/campaign-20261110T035054137437Z/chain-1/.chain-2urvv7vo/validator-2/caches
+2026-11-10 09:21:22.745+0530 | main | INFO  | Runner | Starting Ethereum main loop ... 
+2026-11-10 09:21:22.746+0530 | main | INFO  | NatService | No NAT environment detected so no service could be started
+2026-11-10 09:21:22.747+0530 | main | INFO  | NetworkRunner | Starting Network.
+2026-11-10 09:21:22.794+0530 | nioEventLoopGroup-2-1 | INFO  | RlpxAgent | P2P RLPx agent started and listening on /127.0.0.1:49141.
+2026-11-10 09:21:22.800+0530 | main | INFO  | DefaultP2PNetwork | Enode URL enode://880571a432df7a1e6b83a7b0d35a1a3745b11d66ec6a9048b8766a90e71a834f549ff4ef667ff5f3434a60607ac2017efd348e74f394c632fbffe3c3dcf966df@127.0.0.1:49141?discport=0
+2026-11-10 09:21:22.806+0530 | main | INFO  | DefaultP2PNetwork | Node address 0xaa0b9f9fd245a1e709127efdd07e75ae33d1ef8b
+2026-11-10 09:21:23.005+0530 | main | INFO  | NetworkRunner | Supported capabilities: [eth/68, eth/69, eth/70, eth/71], [istanbul/100], [snap/1]
+2026-11-10 09:21:23.012+0530 | main | INFO  | DefaultSynchronizer | Starting synchronizer.
+2026-11-10 09:21:23.083+0530 | main | INFO  | TransactionPoolFactory | Enabling transaction handling following initial sync
+2026-11-10 09:21:23.105+0530 | main | INFO  | BftMiningCoordinator | Starting BFT mining coordinator following initial sync
+2026-11-10 09:21:23.283+0530 | main | INFO  | FullSyncDownloader | Starting full sync.
+2026-11-10 09:21:23.297+0530 | main | INFO  | FullSyncTargetManager | Unable to find sync target. Waiting for 5 peers minimum. Currently checking 0 peers for usefulness
+2026-11-10 09:21:23.333+0530 | main | INFO  | Runner | Ethereum main loop is up.
+2026-11-10 09:21:28.338+0530 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | Unable to find sync target. Waiting for 5 peers minimum. Currently checking 3 peers for usefulness
+2026-11-10 09:21:28.391+0530 | BftProcessorExecutor-QBFT-0 | INFO  | QbftRound | Importing proposed block to chain. round=ConsensusRoundIdentifier{Sequence=1, Round=1}, hash=0x12b613973a6261a955896e14315bce2e427e8c4520a25fffc4c26c3a0dd13c20
+2026-11-10 09:21:28.582+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #1  (12b61.....13c20)|    0 tx | 0 pending | 0 (0.0%) gas in 0.699s | Timing(started at 2026-11-10T03:51:27.861615947Z, duplicateWorldState=20ms, preTxsSelection=18ms, txsSelection=58ms, selectedTxsEvaluation=0ms, blockAssembled=18ms, blockImported=583ms)
+2026-11-10 09:21:28.976+0530 | EthScheduler-Workers-0 | INFO  | PersistBlockTask | Imported empty block #2 / 0 tx / 0 om / 0 (0.0%) gas / (0x9b7cec61d8e15880a0065eea56acf55c5bd666ff5a4c9e13830268fe06451130) in 0.000s. Peers: 3
+2026-11-10 09:21:30.762+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #3 / 1 tx / 0 pending / 461,384 (4.6%) gas / (0x2c80d2abececcc2f12f35421a64b9ded1d277e841b3217e5fccb318820e5baa7)
+2026-11-10 09:21:31.410+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #4 / 1 tx / 0 pending / 69,494 (0.7%) gas / (0x9b3336aad55663f8dbd9ed5b119d9d308608913581d9b1c902e75df8dee030e1)
+2026-11-10 09:21:31.409+0530 | EthScheduler-Workers-1 | INFO  | PersistBlockTask | Block 4 (0x9b3336aad55663f8dbd9ed5b119d9d308608913581d9b1c902e75df8dee030e1) is already imported
+2026-11-10 09:21:32.122+0530 | EthScheduler-Workers-2 | INFO  | PersistBlockTask | Block 5 (0x5ef2f7628d3dff9ee9f626c2a0c3b2334803c165d133c8d010dd454db4c5a9ae) is already imported
+2026-11-10 09:21:32.125+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Produced #5  (5ef2f.....5a9ae)|    0 tx | 0 pending | 0 (0.0%) gas in 0.120s | Timing(started at 2026-11-10T03:51:32.002093183Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=0ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=118ms)
+2026-11-10 09:21:33.298+0530 | EthScheduler-Workers-2 | INFO  | PersistBlockTask | Imported block #6 / 2 tx / 0 om / 60,914 (0.6%) gas / (0x50814bfb7b4d8a90a996d9f632133b9d62c3a9c7d3d701996abe718f607cfdad) in 0.000s. Peers: 3
+2026-11-10 09:21:33.299+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #6 / 2 tx / 0 pending / 60,914 (0.6%) gas / (0x50814bfb7b4d8a90a996d9f632133b9d62c3a9c7d3d701996abe718f607cfdad)
+2026-11-10 09:21:34.184+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #7 / 1 tx / 0 pending / 69,494 (0.7%) gas / (0x7ff75a24f81bfea7d677c812969bfb4790f15b0692163553ddae96f1f765c664)
+2026-11-10 09:21:35.210+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #8 / 1 tx / 1 pending / 29,252 (0.3%) gas / (0x1accd65d5b136122379ee3bba939f8a239703634204cc0a7fe3fc3c675e54b96)
+2026-11-10 09:21:36.206+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #9  (dad1f.....25613)|    1 tx | 0 pending | 31,662 (0.3%) gas in 0.198s | Timing(started at 2026-11-10T03:51:36.001860913Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=21ms, selectedTxsEvaluation=8ms, blockAssembled=5ms, blockImported=171ms)
+2026-11-10 09:21:37.189+0530 | EthScheduler-Workers-0 | INFO  | PersistBlockTask | Block 10 (0x896961b5a3b1e8aa8fa7b1e514db3dbd176d4b729efb9a26bce98ba21453dd39) is already imported
+2026-11-10 09:21:37.191+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #10 / 1 tx / 0 pending / 69,494 (0.7%) gas / (0x896961b5a3b1e8aa8fa7b1e514db3dbd176d4b729efb9a26bce98ba21453dd39)
+2026-11-10 09:21:38.145+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #11 / 1 tx / 0 pending / 31,662 (0.3%) gas / (0xda4addd040bf014d5a1b17922464df86547fa93740b3ea67e453182784d124bc)
+2026-11-10 09:21:39.134+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #12 / 1 tx / 0 pending / 29,240 (0.3%) gas / (0xf02a8d1d36e9456bd9a8871be87e3a6451583eceb2bc5520edef5a3eaa9011dd)
+2026-11-10 09:21:40.164+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #13  (11760.....3d913)|    1 tx | 0 pending | 69,470 (0.7%) gas in 0.160s | Timing(started at 2026-11-10T03:51:40.002346982Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=6ms, selectedTxsEvaluation=4ms, blockAssembled=2ms, blockImported=152ms)
+2026-11-10 09:21:41.203+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #14 / 2 tx / 0 pending / 60,854 (0.6%) gas / (0x18ed06ba65ca7f4270d190357ff08de305e1948b998bf2f783d6ccd949c04801)
+2026-11-10 09:21:42.311+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #15 / 1 tx / 0 pending / 69,482 (0.7%) gas / (0xd1d4789b3509d98d872ce73467c37f28f85a761275a9da68a3f926b78e828b36)
+2026-11-10 09:21:43.087+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported empty block #16 / 0 tx / 0 pending / 0 (0.0%) gas / (0x83dec4cb30ec75a249f429c2e573c85790106a616afe1cc45e69771861237e6d)
+2026-11-10 09:21:44.138+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #17  (f7ba4.....9ba4b)|    1 tx | 0 pending | 31,650 (0.3%) gas in 0.135s | Timing(started at 2026-11-10T03:51:44.001670016Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=6ms, selectedTxsEvaluation=4ms, blockAssembled=2ms, blockImported=124ms)
+2026-11-10 09:21:45.142+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #18 / 1 tx / 0 pending / 69,482 (0.7%) gas / (0x56b5411cbf265fd991d78d0520233d93fa85f6370c347c5faff4aa12aa087047)
+2026-11-10 09:21:45.143+0530 | EthScheduler-Workers-0 | INFO  | PersistBlockTask | Block 18 (0x56b5411cbf265fd991d78d0520233d93fa85f6370c347c5faff4aa12aa087047) is already imported
+2026-11-10 09:21:46.095+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported empty block #19 / 0 tx / 1 pending / 0 (0.0%) gas / (0x19183aa0d725d7ffc096cd68a14eac4fc7f17ddf5c1344c6a9ab8f52e7f34a7d)
+2026-11-10 09:21:47.127+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #20 / 1 tx / 0 pending / 31,650 (0.3%) gas / (0xeb950de06dddfa5c18dbd9622a1564500d6b50dac5d422615e90548a662425d5)
+2026-11-10 09:21:48.091+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Produced #21  (a4368.....3d6ff)|    0 tx | 0 pending | 0 (0.0%) gas in 0.084s | Timing(started at 2026-11-10T03:51:48.002401426Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=1ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=82ms)
+2026-11-10 09:21:49.070+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported empty block #22 / 0 tx / 0 pending / 0 (0.0%) gas / (0x1638a4cb8e7c878aa96b75a4fffbdc82c0be8c3d3263d8950fcb08fc5c041f3e)
+2026-11-10 09:21:50.990+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #23 / 48 tx / 0 pending / 3,335,520 (33.4%) gas / (0x058391d8ac6a211f9c545b90a1455aa05d609adcceb1fb55a4b3cd77a43df8cc)
+2026-11-10 09:21:51.069+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported empty block #24 / 0 tx / 0 pending / 0 (0.0%) gas / (0xf97829aed1523a531ae6fa060a2cd6e829866642f5f98e9fb32176c73e3a948c)
+2026-11-10 09:21:52.231+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Produced #25  (9d4ec.....a95e9)|    8 tx | 8 pending | 233,968 (2.3%) gas in 0.227s | Timing(started at 2026-11-10T03:51:52.002104884Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=12ms, selectedTxsEvaluation=9ms, blockAssembled=4ms, blockImported=210ms)
+2026-11-10 09:21:54.052+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #26 / 68 tx / 0 pending / 2,104,444 (21.0%) gas / (0x9f274d2ea23f0a9b3a8a5e878121f9d0446686d79acf8d069bdd030437b97a20)
+2026-11-10 09:21:54.208+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported empty block #27 / 0 tx / 0 pending / 0 (0.0%) gas / (0x7de4bdebf8b18e0798c2797d600dc4519cc6c705adc4d8cbc9e6bf884db9153f)
+2026-11-10 09:21:55.058+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported empty block #28 / 0 tx / 0 pending / 0 (0.0%) gas / (0xd905062f263c3ed9829b253ce1adaf04f09997b97a142abb0fcbfb641499e72f)
+2026-11-10 09:21:56.072+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #29  (1881f.....8eb95)|    0 tx | 0 pending | 0 (0.0%) gas in 0.070s | Timing(started at 2026-11-10T03:51:56.001650527Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=1ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=68ms)
+2026-11-10 09:21:57.109+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #30 / 1 tx / 0 pending / 461,396 (4.6%) gas / (0x96fbab9090814d53ec9b12ef88b0eb911ff63f50888e2f9296fe335a16d71f02)
+2026-11-10 09:21:58.101+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #31 / 1 tx / 0 pending / 69,494 (0.7%) gas / (0x43a966455b7ef0b394e10fc3fa83e2159c8d1afc0d6935fe065d47177cdf27d9)
+2026-11-10 09:21:59.097+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #32 / 2 tx / 0 pending / 61,048 (0.6%) gas / (0x5503e80df88d20ddbbd860f3a8d0ecae52d0b98e5e0b326d3f5623f34f66e1fe)
+2026-11-10 09:22:00.113+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #33  (25db7.....dac6c)|    1 tx | 0 pending | 69,494 (0.7%) gas in 0.109s | Timing(started at 2026-11-10T03:52:00.002662730Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=6ms, selectedTxsEvaluation=4ms, blockAssembled=2ms, blockImported=100ms)
+2026-11-10 09:22:01.112+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #34 / 1 tx / 1 pending / 29,252 (0.3%) gas / (0x5ef68120de55c87d0a36c9969e1346e7f17e29606aafbe22cab4f4336d651e73)
+2026-11-10 09:22:02.092+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #35 / 1 tx / 0 pending / 28,759 (0.3%) gas / (0xdf4e8105e5e7dd521558a36b2d73a66fe584ae2caa474caf8ecd2de035ca51e3)
+2026-11-10 09:22:03.084+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #36 / 1 tx / 0 pending / 69,494 (0.7%) gas / (0x547e2da9f42945b1f36a2769e34113f5408995ec6f371d13cfb18ef68bddca39)
+2026-11-10 09:22:04.092+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Produced #37  (22226.....24cdb)|    1 tx | 0 pending | 31,796 (0.3%) gas in 0.088s | Timing(started at 2026-11-10T03:52:04.002636664Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=3ms, selectedTxsEvaluation=2ms, blockAssembled=1ms, blockImported=82ms)
+2026-11-10 09:22:05.101+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #38 / 1 tx / 0 pending / 29,240 (0.3%) gas / (0x8ca9617a73fdc6ab12c47a9ba66f1337a54490f9d714407f222fb34f0ea0790b)
+2026-11-10 09:22:06.109+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #39 / 1 tx / 0 pending / 69,470 (0.7%) gas / (0x64424e794b0eeb832296729b63364542f3150d1333865c21b04d03c5ecba6650)
+2026-11-10 09:22:07.092+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #40 / 2 tx / 0 pending / 60,988 (0.6%) gas / (0xae1ac620c2c1c6454fca05954561f1b5cee989d97da4af245ef540f80c516c0a)
+2026-11-10 09:22:08.080+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Produced #41  (f3126.....a1e57)|    1 tx | 0 pending | 69,482 (0.7%) gas in 0.077s | Timing(started at 2026-11-10T03:52:08.001493318Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=5ms, selectedTxsEvaluation=3ms, blockAssembled=1ms, blockImported=70ms)
+2026-11-10 09:22:09.051+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported empty block #42 / 0 tx / 1 pending / 0 (0.0%) gas / (0xe5f09cc882ed00b36d5898570ff48db83d88482bbb8a3817584c159daaa67bab)
+2026-11-10 09:22:10.103+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #43 / 1 tx / 0 pending / 31,784 (0.3%) gas / (0x419fc731894a57c761764e71e15f51fd6386a5d9759a489451664dfeb53c0ef5)
+2026-11-10 09:22:11.079+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #44 / 1 tx / 0 pending / 69,482 (0.7%) gas / (0x37b24e765b1e538f52e79a6ef34c1828ffdd1c0cf549235903eb61af79e56c1c)
+2026-11-10 09:22:12.072+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Produced #45  (fe719.....eebaf)|    1 tx | 0 pending | 31,784 (0.3%) gas in 0.068s | Timing(started at 2026-11-10T03:52:12.001983202Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=3ms, selectedTxsEvaluation=1ms, blockAssembled=1ms, blockImported=62ms)
+2026-11-10 09:22:13.055+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported empty block #46 / 0 tx / 0 pending / 0 (0.0%) gas / (0xcb0afdf287fefc2bbb7951ebb081e2a28e1eeb8773fcd01206521f8b8016234a)
+2026-11-10 09:22:13.059+0530 | EthScheduler-Workers-4 | INFO  | PersistBlockTask | Block 46 (0xcb0afdf287fefc2bbb7951ebb081e2a28e1eeb8773fcd01206521f8b8016234a) is already imported
+2026-11-10 09:22:14.064+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported empty block #47 / 0 tx / 0 pending / 0 (0.0%) gas / (0x341a8e05e8ea996c1904dbbf9ac31b10a2201cf31a96d090d339477a040f7d3a)
+2026-11-10 09:22:15.785+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #48 / 48 tx / 0 pending / 3,335,520 (33.4%) gas / (0xe443a47aedbfd2263bd0b14c08e9ef52b23017cd96696a48ce9d0a548fe1e320)
+2026-11-10 09:22:16.058+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Produced #49  (219e3.....2f757)|    0 tx | 0 pending | 0 (0.0%) gas in 0.054s | Timing(started at 2026-11-10T03:52:16.002231081Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=1ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=51ms)
+2026-11-10 09:22:17.349+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #50 / 16 tx / 44 pending / 467,960 (4.7%) gas / (0xd241f171141dcc1551fffaa928648425e4beec2c1323430ae22f7202b5bdc6c9)
+2026-11-10 09:22:18.525+0530 | EthScheduler-Workers-5 | INFO  | PersistBlockTask | Block 51 (0xfa35195f7d6300f3d4d1f364a9b3d3d37451a9351c80ed2025bee25c686006df) is already imported
+2026-11-10 09:22:18.526+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #51 / 60 tx / 0 pending / 1,791,848 (17.9%) gas / (0xfa35195f7d6300f3d4d1f364a9b3d3d37451a9351c80ed2025bee25c686006df)
+2026-11-10 09:22:19.051+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported empty block #52 / 0 tx / 0 pending / 0 (0.0%) gas / (0x7281cd53eae2296bfdfcad170467f37e974f5d8a2346d8bd4ae7917b4207d6bb)
+2026-11-10 09:22:20.049+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Produced #53  (0ac27.....49597)|    0 tx | 0 pending | 0 (0.0%) gas in 0.046s | Timing(started at 2026-11-10T03:52:20.001881917Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=1ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=44ms)
+2026-11-10 09:22:21.069+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #54 / 1 tx / 0 pending / 461,408 (4.6%) gas / (0xdeae3ba66db30a2b01799909595ad51e2e3369416668df1dd051fdb4b49d5c17)
+2026-11-10 09:22:22.079+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #55 / 1 tx / 0 pending / 69,494 (0.7%) gas / (0xf04743accabb5b92d1376240e499274fe447369263b88c12aa0587c3c1565493)
+2026-11-10 09:22:23.087+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #56 / 1 tx / 0 pending / 29,252 (0.3%) gas / (0x321e77963e10e8e2835d30be436b3926cb33a9655c6a67c34b5248a3c49556f7)
+2026-11-10 09:22:24.053+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #57  (ef921.....ec326)|    0 tx | 0 pending | 0 (0.0%) gas in 0.050s | Timing(started at 2026-11-10T03:52:24.002203136Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=1ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=48ms)
+2026-11-10 09:22:25.076+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #58 / 1 tx / 0 pending / 28,759 (0.3%) gas / (0xbae2b50d9cd82de78a283fa040ead42138f64744e1cf4c6c4ef9b8a2f6137cc8)
+2026-11-10 09:22:26.095+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #59 / 1 tx / 0 pending / 69,494 (0.7%) gas / (0xbd45fc158ed5a3e2c78eba96806206d936d165dafc9b383ff74cda59fec5b508)
+2026-11-10 09:22:27.072+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #60 / 1 tx / 0 pending / 29,252 (0.3%) gas / (0x01062a9898bcdd84960200b81cb2296e96e10be07bad5925b35d27e23d85679b)
+2026-11-10 09:22:28.059+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Produced #61  (5b9be.....3fba7)|    0 tx | 0 pending | 0 (0.0%) gas in 0.055s | Timing(started at 2026-11-10T03:52:28.002360876Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=1ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=52ms)
+2026-11-10 09:22:29.061+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #62 / 1 tx / 0 pending / 28,759 (0.3%) gas / (0x01fc89d02d2a9fce263376883612709ba46815072f65f8702707604136983791)
+2026-11-10 09:22:30.102+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #63 / 1 tx / 0 pending / 69,494 (0.7%) gas / (0xbefb5a7d5eaee9affbc2ae48b271f77430a6e9e0388516f8f28bcca13a6bd325)
+2026-11-10 09:22:31.055+0530 | EthScheduler-Workers-4 | INFO  | PersistBlockTask | Block 64 (0x08444f0594383d0b2d54260c2da9f39ca9a56bd761249d13f6c4005606c46d1b) is already imported
+2026-11-10 09:22:31.055+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported empty block #64 / 0 tx / 0 pending / 0 (0.0%) gas / (0x08444f0594383d0b2d54260c2da9f39ca9a56bd761249d13f6c4005606c46d1b)
+2026-11-10 09:22:32.081+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #65  (e323d.....c4dd6)|    1 tx | 0 pending | 29,240 (0.3%) gas in 0.077s | Timing(started at 2026-11-10T03:52:32.001861022Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=3ms, selectedTxsEvaluation=1ms, blockAssembled=1ms, blockImported=71ms)
+2026-11-10 09:22:33.062+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #66 / 1 tx / 0 pending / 28,759 (0.3%) gas / (0x9c707c6e9aaa0580199bae0e8e865c5d72700f7d5eaa7355a3bc49d1cb99ba4c)
+2026-11-10 09:22:34.068+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #67 / 1 tx / 0 pending / 69,470 (0.7%) gas / (0x6c597152e8f532fdd5bcd7bbd09b49e1671b26e8fc16d0ab85bf67aad88f32ae)
+2026-11-10 09:22:35.072+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #68 / 1 tx / 0 pending / 29,216 (0.3%) gas / (0x478c72eb2f1d04aa31026c40dc1a55456bf38aab1ebfbe799749a6d39c15d18d)
+2026-11-10 09:22:36.054+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Produced #69  (aa6a8.....3766d)|    0 tx | 0 pending | 0 (0.0%) gas in 0.045s | Timing(started at 2026-11-10T03:52:36.001819316Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=0ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=44ms)
+2026-11-10 09:22:37.058+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #70 / 1 tx / 0 pending / 28,735 (0.3%) gas / (0x3013e1c44d0a3c4e2067e0ffd7c541fe19052e9bb3187bbcfbf74d50c146f793)
+2026-11-10 09:22:38.068+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #71 / 1 tx / 0 pending / 69,482 (0.7%) gas / (0x5e54009aa236faf20882d84c565e48d34252808153b996029cedb852b1ede10f)
+2026-11-10 09:22:39.049+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported empty block #72 / 0 tx / 0 pending / 0 (0.0%) gas / (0x4e73b8d677ac56de12350667f5d82d3893bdbb1b063369aafd961b6fe55e7d90)
+2026-11-10 09:22:40.039+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #73  (355a3.....2d096)|    0 tx | 0 pending | 0 (0.0%) gas in 0.036s | Timing(started at 2026-11-10T03:52:40.001526268Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=0ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=34ms)
+2026-11-10 09:22:41.060+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #74 / 1 tx / 0 pending / 31,784 (0.3%) gas / (0x596b36922cf6600dbc5ed980c2bc7e4403ccd566e04f1857789b5a5d1dde3eb7)
+2026-11-10 09:22:42.068+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #75 / 1 tx / 0 pending / 69,482 (0.7%) gas / (0xf2ec5ff622d9f4f227b4523fc70f46a60723a27c776e871cd2abf83201757138)
+2026-11-10 09:22:43.057+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported empty block #76 / 0 tx / 0 pending / 0 (0.0%) gas / (0x14fc91adb03fb89f509b4de629a5056d65439b1a666fba318f8db1ac6af1b8ab)
+2026-11-10 09:22:44.067+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #77  (397f8.....b9034)|    0 tx | 0 pending | 0 (0.0%) gas in 0.046s | Timing(started at 2026-11-10T03:52:44.001961873Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=1ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=44ms)
+2026-11-10 09:22:45.070+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #78 / 1 tx / 0 pending / 31,784 (0.3%) gas / (0x6b8873c28beccf3ff1a7dfa4be8295dd7256bf442bd22f2c53a55e16c7fbee2e)
+2026-11-10 09:22:46.037+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported empty block #79 / 0 tx / 0 pending / 0 (0.0%) gas / (0xdb5837587c53452a38efe5839fff92441a4de57388bb1c1ec12fcd7e8ae07094)
+2026-11-10 09:22:47.051+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported empty block #80 / 0 tx / 0 pending / 0 (0.0%) gas / (0xbeac3daa76cddf8ab9407cb2ce6ac8fdaf4411de95b0556d6e12784351d70b53)
+2026-11-10 09:22:48.338+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Produced #81  (a3df3.....a16b8)|   48 tx | 0 pending | 3,335,520 (33.4%) gas in 0.334s | Timing(started at 2026-11-10T03:52:48.001783384Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=54ms, selectedTxsEvaluation=44ms, blockAssembled=5ms, blockImported=275ms)
+2026-11-10 09:22:49.090+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #82 / 4 tx / 0 pending / 116,972 (1.2%) gas / (0x109e2dfd7ef75bfe1102263eab267ff86b83e108ab47fc15682a5094e499df43)
+2026-11-10 09:22:50.178+0530 | EthScheduler-Workers-2 | INFO  | PersistBlockTask | Block 83 (0xd61d26cf009e6320545920f9d8cb9247232bfa09ee14befb4796aa090141157e) is already imported
+2026-11-10 09:22:50.178+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #83 / 24 tx / 0 pending / 701,856 (7.0%) gas / (0xd61d26cf009e6320545920f9d8cb9247232bfa09ee14befb4796aa090141157e)
+2026-11-10 09:22:51.257+0530 | EthScheduler-Workers-7 | INFO  | PersistBlockTask | Block 84 (0x94836b7cbafece8e29d425abc460b34a3bbee9cc603314c717ff895137b918c3) is already imported
+2026-11-10 09:22:51.258+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #84 / 48 tx / 0 pending / 1,440,980 (14.4%) gas / (0x94836b7cbafece8e29d425abc460b34a3bbee9cc603314c717ff895137b918c3)
+2026-11-10 09:22:52.039+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #85  (60248.....4763a)|    0 tx | 0 pending | 0 (0.0%) gas in 0.036s | Timing(started at 2026-11-10T03:52:52.001456575Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=0ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=35ms)
+2026-11-10 09:22:53.083+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #86 / 1 tx / 0 pending / 461,408 (4.6%) gas / (0x4722dc2a780b88c8bc5c240fa95770d90fb4c92e2ae775dd754fb9d60257daae)
+2026-11-10 09:22:54.057+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #87 / 1 tx / 0 pending / 69,494 (0.7%) gas / (0xa93254c7898b48639e252c19ba4dbbcb4a346ebf739d6624569a79c4ef8742d1)
+2026-11-10 09:22:55.072+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #88 / 2 tx / 0 pending / 61,048 (0.6%) gas / (0xf4950f37ce0e1851405961202654d9f3e867b049820f2ebe7865a3f14835dd9f)
+2026-11-10 09:22:55.072+0530 | EthScheduler-Workers-5 | INFO  | PersistBlockTask | Block 88 (0xf4950f37ce0e1851405961202654d9f3e867b049820f2ebe7865a3f14835dd9f) is already imported
+2026-11-10 09:22:56.069+0530 | EthScheduler-Workers-0 | INFO  | PersistBlockTask | Block 89 (0xbaf67dc2b2a07471c17ae7efe26edae44158662e183761835aba07422c9f0651) is already imported
+2026-11-10 09:22:56.070+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #89  (baf67.....f0651)|    1 tx | 0 pending | 69,494 (0.7%) gas in 0.067s | Timing(started at 2026-11-10T03:52:56.002377220Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=2ms, selectedTxsEvaluation=1ms, blockAssembled=1ms, blockImported=62ms)
+2026-11-10 09:22:57.066+0530 | EthScheduler-Workers-6 | INFO  | PersistBlockTask | Block 90 (0xe20c2090264cecb3cfa572502d2890c80a027178935e104c20898f44ba62d7d0) is already imported
+2026-11-10 09:22:57.067+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #90 / 2 tx / 0 pending / 61,048 (0.6%) gas / (0xe20c2090264cecb3cfa572502d2890c80a027178935e104c20898f44ba62d7d0)
+2026-11-10 09:22:58.064+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #91 / 1 tx / 0 pending / 69,494 (0.7%) gas / (0xe9d1994060d2073072a0616a550da9948aca24e249c151ca7d3abeee65fce6a6)
+2026-11-10 09:22:59.062+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #92 / 1 tx / 0 pending / 31,796 (0.3%) gas / (0x9206f3797acda1ee63b08427a4810f07644095f6416d41683bd72bd53a79420a)
+2026-11-10 09:23:00.080+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Produced #93  (cc66c.....c5579)|    1 tx | 0 pending | 29,240 (0.3%) gas in 0.077s | Timing(started at 2026-11-10T03:53:00.002239797Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=2ms, selectedTxsEvaluation=1ms, blockAssembled=1ms, blockImported=72ms)
+2026-11-10 09:23:00.080+0530 | EthScheduler-Workers-3 | INFO  | PersistBlockTask | Block 93 (0xcc66c997e12597164135bb70b0ee5e81fbac68ee4fedaf84639cad2c26fc5579) is already imported
+2026-11-10 09:23:01.052+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #94 / 1 tx / 0 pending / 69,470 (0.7%) gas / (0x6205b8b822cc55791c73a124c50fe1924240f394820452585a67c27d0c60615e)
+2026-11-10 09:23:02.113+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #95 / 2 tx / 0 pending / 60,988 (0.6%) gas / (0xae25aaa35b2d3a5c8783211f24e28891d89f0956fc0d5186bae372d3b5d05ff3)
+2026-11-10 09:23:03.107+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #96 / 1 tx / 0 pending / 69,482 (0.7%) gas / (0xae7c6020cbd2751d6e62155d80df054419791bd0bf1b0a6c595bec57fb928617)
+2026-11-10 09:23:03.106+0530 | EthScheduler-Workers-5 | INFO  | PersistBlockTask | Block 96 (0xae7c6020cbd2751d6e62155d80df054419791bd0bf1b0a6c595bec57fb928617) is already imported
+2026-11-10 09:23:04.055+0530 | EthScheduler-Workers-6 | INFO  | PersistBlockTask | Block 97 (0xf2b1baeb5ebbe3939322620d4e2fa521ab44fee3347ea4fd39f31f9b1e7b156f) is already imported
+2026-11-10 09:23:04.060+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Produced #97  (f2b1b.....b156f)|    0 tx | 1 pending | 0 (0.0%) gas in 0.057s | Timing(started at 2026-11-10T03:53:04.001702098Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=1ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=55ms)
+2026-11-10 09:23:05.063+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #98 / 1 tx / 0 pending / 31,784 (0.3%) gas / (0xfdc64c121f4acf2e4046f68e4696ade151443f305839ede09cb5d9ffb16349ca)
+2026-11-10 09:23:06.060+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #99 / 1 tx / 0 pending / 69,482 (0.7%) gas / (0x90fb8848c79a29337af0144b7e8fd7fd601bd397b47ff734eb9295004e7644d5)
+2026-11-10 09:23:07.058+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #100 / 1 tx / 0 pending / 31,784 (0.3%) gas / (0xbfed886b09822a0aa6cef01d9af7cd347b9946413d285f05f7433937976a85a0)
+2026-11-10 09:23:08.045+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #101  (760b2.....d96d3)|    0 tx | 0 pending | 0 (0.0%) gas in 0.035s | Timing(started at 2026-11-10T03:53:08.002016065Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=1ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=34ms)
+2026-11-10 09:23:09.056+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported empty block #102 / 0 tx / 0 pending / 0 (0.0%) gas / (0x1060422b1160f30ddf84ffbc580de3bb4fb8f87c11928b2f59e2a76112800180)
+2026-11-10 09:23:10.440+0530 | EthScheduler-Workers-5 | INFO  | PersistBlockTask | Block 103 (0xa252be19ef8185beedb2a99a49709b7b5e46aa4de661cf665faed25a9acc9294) is already imported
+2026-11-10 09:23:10.442+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #103 / 48 tx / 0 pending / 3,335,520 (33.4%) gas / (0xa252be19ef8185beedb2a99a49709b7b5e46aa4de661cf665faed25a9acc9294)
+2026-11-10 09:23:11.108+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #104 / 4 tx / 0 pending / 116,972 (1.2%) gas / (0xfd638e80e2b356e358f78e5f1d4f9483dac937008113e818ab341be074ba8aa6)
+2026-11-10 09:23:12.435+0530 | EthScheduler-Workers-1 | INFO  | PersistBlockTask | Block 105 (0x5014fba5b9d43eba73a9d841426acf4a86522948c46a044a1af022dd783b61df) is already imported
+2026-11-10 09:23:12.436+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Produced #105  (5014f.....b61df)|   69 tx | 3 pending | 2,056,114 (20.6%) gas in 0.433s | Timing(started at 2026-11-10T03:53:12.001659490Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=62ms, selectedTxsEvaluation=45ms, blockAssembled=5ms, blockImported=365ms)
+2026-11-10 09:23:13.066+0530 | EthScheduler-Workers-0 | INFO  | PersistBlockTask | Block 106 (0x7797b7dc16613000716b9e995d33894a54b930372145618102f14c7f8aade8bd) is already imported
+2026-11-10 09:23:13.067+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #106 / 3 tx / 0 pending / 89,759 (0.9%) gas / (0x7797b7dc16613000716b9e995d33894a54b930372145618102f14c7f8aade8bd)
+2026-11-10 09:23:14.053+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported empty block #107 / 0 tx / 0 pending / 0 (0.0%) gas / (0x5c13bf7caf294f9770ac27c39cec0289a59ea57d636d9f9aa6673600d4595aa6)
+2026-11-10 09:23:15.059+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #108 / 1 tx / 0 pending / 461,396 (4.6%) gas / (0xdb9e72b9903da7c5f506f1a00d97f76d1b9d7b3ee1f1f79ec0f33af74dd082e6)
+2026-11-10 09:23:16.050+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Produced #109  (53665.....25c63)|    0 tx | 0 pending | 0 (0.0%) gas in 0.046s | Timing(started at 2026-11-10T03:53:16.001698376Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=1ms, selectedTxsEvaluation=0ms, blockAssembled=0ms, blockImported=44ms)
+2026-11-10 09:23:17.038+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported empty block #110 / 0 tx / 0 pending / 0 (0.0%) gas / (0x71f705ff335e1ff908aaaad7daa2fd1c476105b356b83d9f8f071ac2e39fd197)
+2026-11-10 09:23:17.041+0530 | EthScheduler-Workers-4 | INFO  | PersistBlockTask | Block 110 (0x71f705ff335e1ff908aaaad7daa2fd1c476105b356b83d9f8f071ac2e39fd197) is already imported
+2026-11-10 09:23:17.538+0530 | BftProcessorExecutor-QBFT-0 | INFO  | BftProcessor | Shutting down BFT event processor
+2026-11-10 09:23:17.562+0530 | BesuCommand-Shutdown-Hook | INFO  | DefaultSynchronizer | Stopping synchronizer
+2026-11-10 09:23:17.570+0530 | BesuCommand-Shutdown-Hook | INFO  | NetworkRunner | Stopping Network.
+2026-11-10 09:23:17.573+0530 | BesuCommand-Shutdown-Hook | INFO  | CompositePeerDiscoveryAgent | Stopping discovery ...
+2026-11-10 09:23:17.574+0530 | BesuCommand-Shutdown-Hook | INFO  | NettyPeerDiscoveryAgent | Stopping peer discovery agent
+2026-11-10 09:23:17.574+0530 | BesuCommand-Shutdown-Hook | INFO  | NettyTransport | Stopping DiscV4 UDP transport
+2026-11-10 09:23:17.575+0530 | BesuCommand-Shutdown-Hook | INFO  | NettyTransport | DiscV4 UDP transport was never started; nothing to stop
+2026-11-10 09:23:17.576+0530 | BesuCommand-Shutdown-Hook | INFO  | NettyPeerDiscoveryAgent | DiscV4 transport stopped
+2026-11-10 09:23:17.580+0530 | BesuCommand-Shutdown-Hook | INFO  | NettyPeerDiscoveryAgent | Peer discovery controller stopped; shutting down executors
+2026-11-10 09:23:17.580+0530 | BesuCommand-Shutdown-Hook | INFO  | NettyPeerDiscoveryAgent | Peer discovery agent stopped
+2026-11-10 09:23:17.581+0530 | BesuCommand-Shutdown-Hook | INFO  | PeerDiscoveryAgentV5 | Stopping DiscV5 Peer Discovery Agent
+2026-11-10 09:23:17.618+0530 | BesuCommand-Shutdown-Hook | INFO  | EthProtocolManager | Stopping eth Subprotocol.
+2026-11-10 09:23:17.627+0530 | BesuCommand-Shutdown-Hook | INFO  | EthProtocolManager | eth Subprotocol stopped.
+2026-11-10 09:23:17.627+0530 | BesuCommand-Shutdown-Hook | INFO  | NetworkRunner | Network stopped.
+2026-11-10 09:23:17.628+0530 | BesuCommand-Shutdown-Hook | INFO  | AutoTransactionLogBloomCachingService | Shutting down Auto transaction logs caching service.
+2026-11-10 09:23:17.631+0530 | BesuCommand-Shutdown-Hook | INFO  | NatService | No NAT environment detected so no service could be stopped

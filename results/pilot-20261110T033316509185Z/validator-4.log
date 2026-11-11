@@ -1,0 +1,129 @@
+2026-11-10 09:03:36.390+0530 | main | INFO  | Besu | Starting Besu
+2026-11-10 09:03:41.878+0530 | main | INFO  | Besu | RPC HTTP JSON-RPC config: JsonRpcConfiguration{enabled=true, port=40945, host=127.0.0.1, corsAllowedDomains=[], hostsAllowlist=[localhost, 127.0.0.1], rpcApis=[ETH, NET, WEB3], authenticationEnabled=false, authenticationCredentialsFile=null, authenticationPublicKeyFile=null, tlsConfiguration=Optional.empty, httpTimeoutSec=30, maxActiveConnections=80, maxBatchSize=1024}
+2026-11-10 09:03:41.885+0530 | main | INFO  | Besu | Bonsai cross-block cache enabled for BAL prefetch reading
+2026-11-10 09:03:41.892+0530 | main | WARN  | Besu | Forcing --bonsai-limit-trie-logs-enabled=false, since it cannot be enabled with --sync-mode=FULL and --data-storage-format=BONSAI.
+2026-11-10 09:03:42.046+0530 | main | INFO  | Besu | Connecting to 3 static nodes.
+2026-11-10 09:03:42.117+0530 | main | WARN  | Besu | Forcing price bump for transaction replacement to 0, since min-gas-price is set to 0
+2026-11-10 09:03:42.122+0530 | main | WARN  | Besu | Forcing tx-pool-min-gas-price=0, since it cannot be greater than the value of min-gas-price
+2026-11-10 09:03:42.234+0530 | main | INFO  | Besu | jemalloc library not found, memory usage may be reduced by installing it
+2026-11-10 09:03:42.719+0530 | main | INFO  | Besu | 
+####################################################################################################
+#                                                                                                  #
+# Besu version 26.10.2                                                                             #
+#                                                                                                  #
+# Configuration:                                                                                   #
+# Network: Custom genesis file                                                                     #
+# /home/gowher/Desktop/BRAINS/results/pilot-20261110T033316509185Z/.chain-frmq                     #
+# bqqk/generated/genesis.json                                                                      #
+# Network Id: 485127                                                                               #
+# Data storage: Bonsai                                                                             #
+# RocksDB max open files: 1024 (derived from available resources)                                  #
+# Sync mode: Full                                                                                  #
+# Sync min peers: 5                                                                                #
+# P2P Discovery: disabled                                                                          #
+# RPC HTTP APIs: ETH,NET,WEB3                                                                      #
+# RPC HTTP port: 40945                                                                             #
+# Using LAYERED transaction pool implementation                                                    #
+# Using STACKED worldstate update mode                                                             #
+# Opcode optimizations enabled                                                                     #
+# Parallel transaction processing enabled                                                          #
+# BAL pruning enabled (retained BALs: 457568)                                                      #
+#                                                                                                  #
+# Host:                                                                                            #
+# Java: openjdk-java-25                                                                            #
+# Maximum heap size: 0.75 GB                                                                       #
+# OS: linux-x86_64                                                                                 #
+# glibc: 2.43                                                                                      #
+# Total memory: 14.81 GB                                                                           #
+# CPU cores: 12                                                                                    #
+#                                                                                                  #
+# Plugin Registration Summary:                                                                     #
+# No plugins have been registered.                                                                 #
+# TOTAL = 0 of 0 plugins successfully registered.                                                  #
+#                                                                                                  #
+####################################################################################################
+2026-11-10 09:03:42.728+0530 | main | INFO  | Besu | Security Module: localfile
+2026-11-10 09:03:42.732+0530 | main | INFO  | VersionMetadata | Lookup version metadata file in data directory: /home/gowher/Desktop/BRAINS/results/pilot-20261110T033316509185Z/.chain-frmqbqqk/validator-4
+2026-11-10 09:03:42.734+0530 | main | INFO  | VersionMetadata | No version data detected. Writing Besu version 26.10.2 to metadata file
+2026-11-10 09:03:43.061+0530 | main | INFO  | Besu | Using the native implementation of alt bn128
+2026-11-10 09:03:43.066+0530 | main | INFO  | Besu | Using the Java implementation of modexp
+2026-11-10 09:03:43.168+0530 | main | INFO  | Besu | Using the native implementation of the signature algorithm
+2026-11-10 09:03:43.177+0530 | main | INFO  | Besu | Using the native implementation of the blake2bf algorithm
+2026-11-10 09:03:43.827+0530 | main | INFO  | Besu | Using the native BoringSSL implementation of p256verify
+2026-11-10 09:03:44.450+0530 | main | WARN  | Besu | Forcing price bump for transaction replacement to 0, since min-gas-price is set to 0
+2026-11-10 09:03:44.455+0530 | main | WARN  | Besu | Forcing tx-pool-min-gas-price=0, since it cannot be greater than the value of min-gas-price
+2026-11-10 09:03:44.476+0530 | main | INFO  | KeyPairUtil | Attempting to load public key from /home/gowher/Desktop/BRAINS/results/pilot-20261110T033316509185Z/.chain-frmqbqqk/generated/keys/0xe7e8b63634affa880b20a6d61708bb1783752cf7/key
+2026-11-10 09:03:44.642+0530 | main | INFO  | KeyPairUtil | Loaded public key 0x325194b5b60eac7423c8ea34c7ccfab1dfb3821ea3db0e60286619ec46dd7fca2d429d1baad7274ea0f5af2f74db80ee6c2ee871c2489478ed1d8d6331b170bc from /home/gowher/Desktop/BRAINS/results/pilot-20261110T033316509185Z/.chain-frmqbqqk/generated/keys/0xe7e8b63634affa880b20a6d61708bb1783752cf7/key
+2026-11-10 09:03:45.711+0530 | main | INFO  | ProtocolScheduleBuilder | Protocol schedule created with milestones: [Berlin:0]
+2026-11-10 09:03:45.740+0530 | main | INFO  | RocksDBKeyValueStorageFactory | No existing database at /home/gowher/Desktop/BRAINS/results/pilot-20261110T033316509185Z/.chain-frmqbqqk/validator-4. Using default metadata for new db versionedStorageFormat=BaseVersionedStorageFormat{format=BONSAI, version=4}
+2026-11-10 09:03:46.728+0530 | main | INFO  | VersionedFlatDbCacheManager | Cache maintenance will trigger asynchronously after 1000 pending tasks
+2026-11-10 09:03:46.766+0530 | main | INFO  | FlatDbStrategyProvider | Flat db mode found FULL
+2026-11-10 09:03:46.778+0530 | main | INFO  | FlatDbStrategyProvider | DB mode with code stored using code hash enabled = true
+2026-11-10 09:03:46.852+0530 | main | INFO  | FlatDbStrategyProvider | Flat db mode found FULL
+2026-11-10 09:03:46.857+0530 | main | INFO  | FlatDbStrategyProvider | DB mode with code stored using code hash enabled = true
+2026-11-10 09:03:47.401+0530 | main | INFO  | BesuControllerBuilder | Adding ChainDataPruner to observe block added events
+2026-11-10 09:03:47.414+0530 | main | INFO  | BesuControllerBuilder | BAL pruning enabled | BALs retained: 457568 | Frequency: 256
+2026-11-10 09:03:47.538+0530 | main | INFO  | TransactionPoolFactory | Enabling transaction pool
+2026-11-10 09:03:47.645+0530 | main | INFO  | BesuControllerBuilder | QBFT is configured, creating initial sync for BFT
+2026-11-10 09:03:47.650+0530 | main | INFO  | BFTPivotSelectorFromPeers | Creating pivot block selector for BFT node
+2026-11-10 09:03:47.918+0530 | main | INFO  | RunnerBuilder | Detecting NAT service.
+2026-11-10 09:03:48.205+0530 | main | INFO  | CompositePeerDiscoveryAgentFactory | Peer discovery mode: BOTH (requested=BOTH, V4=true, V5=true)
+2026-11-10 09:03:49.091+0530 | main | INFO  | Runner | Starting external services ... 
+2026-11-10 09:03:49.094+0530 | main | INFO  | JsonRpcHttpService | Starting JSON-RPC service on 127.0.0.1:40945
+2026-11-10 09:03:49.799+0530 | vert.x-eventloop-thread-1 | INFO  | JsonRpcHttpService | JSON-RPC service started and listening on 127.0.0.1:40945
+2026-11-10 09:03:49.821+0530 | main | INFO  | AutoTransactionLogBloomCachingService | Starting auto transaction log bloom caching service.
+2026-11-10 09:03:49.826+0530 | main | INFO  | LogBloomCacheMetadata | Lookup cache metadata file in data directory: /home/gowher/Desktop/BRAINS/results/pilot-20261110T033316509185Z/.chain-frmqbqqk/validator-4/caches
+2026-11-10 09:03:49.914+0530 | main | INFO  | Runner | Starting Ethereum main loop ... 
+2026-11-10 09:03:49.916+0530 | main | INFO  | NatService | No NAT environment detected so no service could be started
+2026-11-10 09:03:49.917+0530 | main | INFO  | NetworkRunner | Starting Network.
+2026-11-10 09:03:49.982+0530 | nioEventLoopGroup-2-1 | INFO  | RlpxAgent | P2P RLPx agent started and listening on /127.0.0.1:45755.
+2026-11-10 09:03:50.002+0530 | main | INFO  | DefaultP2PNetwork | Enode URL enode://325194b5b60eac7423c8ea34c7ccfab1dfb3821ea3db0e60286619ec46dd7fca2d429d1baad7274ea0f5af2f74db80ee6c2ee871c2489478ed1d8d6331b170bc@127.0.0.1:45755?discport=0
+2026-11-10 09:03:50.007+0530 | main | INFO  | DefaultP2PNetwork | Node address 0xe7e8b63634affa880b20a6d61708bb1783752cf7
+2026-11-10 09:03:50.255+0530 | main | INFO  | NetworkRunner | Supported capabilities: [eth/68, eth/69, eth/70, eth/71], [istanbul/100], [snap/1]
+2026-11-10 09:03:50.269+0530 | main | INFO  | DefaultSynchronizer | Starting synchronizer.
+2026-11-10 09:03:50.279+0530 | main | INFO  | TransactionPoolFactory | Enabling transaction handling following initial sync
+2026-11-10 09:03:50.291+0530 | main | INFO  | BftMiningCoordinator | Starting BFT mining coordinator following initial sync
+2026-11-10 09:03:50.379+0530 | main | INFO  | FullSyncDownloader | Starting full sync.
+2026-11-10 09:03:50.388+0530 | main | INFO  | FullSyncTargetManager | Unable to find sync target. Waiting for 5 peers minimum. Currently checking 0 peers for usefulness
+2026-11-10 09:03:50.405+0530 | main | INFO  | Runner | Ethereum main loop is up.
+2026-11-10 09:03:54.981+0530 | BftProcessorExecutor-QBFT-0 | INFO  | QbftRound | Importing proposed block to chain. round=ConsensusRoundIdentifier{Sequence=1, Round=1}, hash=0x75e4ac235ef736722693a12f4520139a32b60d336b33fac552469d03c9c7423a
+2026-11-10 09:03:55.209+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported empty block #1 / 0 tx / 0 pending / 0 (0.0%) gas / (0x75e4ac235ef736722693a12f4520139a32b60d336b33fac552469d03c9c7423a)
+2026-11-10 09:03:55.408+0530 | EthScheduler-Timer-0 | INFO  | FullSyncTargetManager | Unable to find sync target. Waiting for 5 peers minimum. Currently checking 3 peers for usefulness
+2026-11-10 09:03:55.556+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported empty block #2 / 0 tx / 0 pending / 0 (0.0%) gas / (0x71916a24751e2c0a471cda4292d5fec32709da8b6dfb8215b12ba2e189f80593)
+2026-11-10 09:03:55.567+0530 | EthScheduler-Workers-0 | INFO  | PersistBlockTask | Block 2 (0x71916a24751e2c0a471cda4292d5fec32709da8b6dfb8215b12ba2e189f80593) is already imported
+2026-11-10 09:03:56.405+0530 | EthScheduler-Workers-2 | INFO  | PersistBlockTask | Block 3 (0xf70461eda089e03f9e0d5945ae18f779f03fa9110822c03a6ada1b4cee37ee60) is already imported
+2026-11-10 09:03:56.414+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Produced #3  (f7046.....7ee60)|    0 tx | 0 pending | 0 (0.0%) gas in 0.402s | Timing(started at 2026-11-10T03:33:56.004887418Z, duplicateWorldState=2ms, preTxsSelection=8ms, txsSelection=91ms, selectedTxsEvaluation=0ms, blockAssembled=18ms, blockImported=281ms)
+2026-11-10 09:03:57.552+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #4 / 1 tx / 0 pending / 461,396 (4.6%) gas / (0x5b533c937f5c2cfd7de16e6b72d81d4a4dbeaa17dcd8589a58cd55ca7c7e6927)
+2026-11-10 09:03:58.353+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #5 / 3 tx / 0 pending / 208,482 (2.1%) gas / (0x27354adaedf61e9cc307b81585146d6a4cef59dcf0136aa89722548fd7f2cbe8)
+2026-11-10 09:03:59.194+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #6 / 1 tx / 0 pending / 29,252 (0.3%) gas / (0xf848f2001d00170e34f42b92de230b18b3303b0dea3ed446ef6d517f49a29ac3)
+2026-11-10 09:04:00.226+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Produced #7  (c82b7.....97ddf)|    3 tx | 0 pending | 94,986 (0.9%) gas in 0.223s | Timing(started at 2026-11-10T03:34:00.001774510Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=23ms, selectedTxsEvaluation=12ms, blockAssembled=8ms, blockImported=191ms)
+2026-11-10 09:04:01.174+0530 | EthScheduler-Workers-6 | INFO  | PersistBlockTask | Block 8 (0x8e07120de0318771e9eb3a11e2bd1cd22ba419d1de81c003fca1a929d8061a32) is already imported
+2026-11-10 09:04:01.175+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #8 / 1 tx / 0 pending / 29,240 (0.3%) gas / (0x8e07120de0318771e9eb3a11e2bd1cd22ba419d1de81c003fca1a929d8061a32)
+2026-11-10 09:04:02.137+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #9 / 1 tx / 0 pending / 461,408 (4.6%) gas / (0xd61001d416ac5b2313016ade674c3e31a9bca044d59a94209d5f2d6b4f28f8a8)
+2026-11-10 09:04:03.184+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #10 / 3 tx / 0 pending / 208,482 (2.1%) gas / (0xb1d7edf9f30696d824bdc1084f13d6602642206d64873b5580c1eba4351c69f2)
+2026-11-10 09:04:04.119+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Produced #11  (0821e.....76353)|    1 tx | 0 pending | 29,252 (0.3%) gas in 0.113s | Timing(started at 2026-11-10T03:34:04.001769254Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=5ms, selectedTxsEvaluation=3ms, blockAssembled=2ms, blockImported=103ms)
+2026-11-10 09:04:05.147+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Imported block       #12 / 3 tx / 0 pending / 92,351 (0.9%) gas / (0xd86afc69ec256c1039dc5dcd0d0776c8c78a77b3ba93992b9d0ac5067f075e71)
+2026-11-10 09:04:06.116+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #13 / 1 tx / 0 pending / 29,240 (0.3%) gas / (0xd10058cabc4f82a1112939fcb8a642bb67ac82b493e5bca097df8d7875105eed)
+2026-11-10 09:04:07.101+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #14 / 1 tx / 0 pending / 461,420 (4.6%) gas / (0x8306832b7ec7dbd5cf402826455d6f3a32b6fe81728c81c463098d8feaff0b35)
+2026-11-10 09:04:08.166+0530 | EthScheduler-Services-2 | INFO  | QbftBesuControllerBuilder | Produced #15  (8eae9.....b3008)|    3 tx | 0 pending | 208,482 (2.1%) gas in 0.163s | Timing(started at 2026-11-10T03:34:08.002021817Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=9ms, selectedTxsEvaluation=7ms, blockAssembled=2ms, blockImported=150ms)
+2026-11-10 09:04:09.123+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #16 / 1 tx / 0 pending / 28,585 (0.3%) gas / (0x9f34f796383e7dc03166b5bff3ef4c906466cfbe08b378bce8c26b5bc0d670f4)
+2026-11-10 09:04:10.126+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Imported block       #17 / 1 tx / 0 pending / 29,252 (0.3%) gas / (0x466f6910b4398dbee8f71a53f811eb11a12ec86367bcd7d5c7383f15cbb0e158)
+2026-11-10 09:04:11.068+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported empty block #18 / 0 tx / 0 pending / 0 (0.0%) gas / (0x04fc700a1351005937696d98b6f69124cac08ff67e4fbea4bce1a2558664eccb)
+2026-11-10 09:04:12.154+0530 | EthScheduler-Services-1 | INFO  | QbftBesuControllerBuilder | Produced #19  (ef45b.....fa2da)|    3 tx | 0 pending | 92,351 (0.9%) gas in 0.151s | Timing(started at 2026-11-10T03:34:12.001259356Z, duplicateWorldState=0ms, preTxsSelection=0ms, txsSelection=8ms, selectedTxsEvaluation=6ms, blockAssembled=3ms, blockImported=138ms)
+2026-11-10 09:04:13.103+0530 | EthScheduler-Services-0 | INFO  | QbftBesuControllerBuilder | Imported block       #20 / 1 tx / 0 pending / 29,240 (0.3%) gas / (0x303cb7dfec64f181cff295e00f76b1b6139735c3621b1965ef61a52c4a1aadc4)
+2026-11-10 09:04:13.605+0530 | BftProcessorExecutor-QBFT-0 | INFO  | BftProcessor | Shutting down BFT event processor
+2026-11-10 09:04:13.608+0530 | BesuCommand-Shutdown-Hook | INFO  | DefaultSynchronizer | Stopping synchronizer
+2026-11-10 09:04:13.615+0530 | BesuCommand-Shutdown-Hook | INFO  | NetworkRunner | Stopping Network.
+2026-11-10 09:04:13.618+0530 | BesuCommand-Shutdown-Hook | INFO  | CompositePeerDiscoveryAgent | Stopping discovery ...
+2026-11-10 09:04:13.619+0530 | BesuCommand-Shutdown-Hook | INFO  | NettyPeerDiscoveryAgent | Stopping peer discovery agent
+2026-11-10 09:04:13.619+0530 | BesuCommand-Shutdown-Hook | INFO  | NettyTransport | Stopping DiscV4 UDP transport
+2026-11-10 09:04:13.620+0530 | BesuCommand-Shutdown-Hook | INFO  | NettyTransport | DiscV4 UDP transport was never started; nothing to stop
+2026-11-10 09:04:13.625+0530 | BesuCommand-Shutdown-Hook | INFO  | NettyPeerDiscoveryAgent | DiscV4 transport stopped
+2026-11-10 09:04:13.627+0530 | BesuCommand-Shutdown-Hook | INFO  | NettyPeerDiscoveryAgent | Peer discovery controller stopped; shutting down executors
+2026-11-10 09:04:13.631+0530 | BesuCommand-Shutdown-Hook | INFO  | NettyPeerDiscoveryAgent | Peer discovery agent stopped
+2026-11-10 09:04:13.631+0530 | BesuCommand-Shutdown-Hook | INFO  | PeerDiscoveryAgentV5 | Stopping DiscV5 Peer Discovery Agent
+2026-11-10 09:04:13.665+0530 | BesuCommand-Shutdown-Hook | INFO  | EthProtocolManager | Stopping eth Subprotocol.
+2026-11-10 09:04:13.686+0530 | BesuCommand-Shutdown-Hook | INFO  | EthProtocolManager | eth Subprotocol stopped.
+2026-11-10 09:04:13.687+0530 | BesuCommand-Shutdown-Hook | INFO  | NetworkRunner | Network stopped.
+2026-11-10 09:04:13.688+0530 | BesuCommand-Shutdown-Hook | INFO  | AutoTransactionLogBloomCachingService | Shutting down Auto transaction logs caching service.
+2026-11-10 09:04:13.695+0530 | BesuCommand-Shutdown-Hook | INFO  | NatService | No NAT environment detected so no service could be stopped

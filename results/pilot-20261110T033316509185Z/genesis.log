@@ -1,0 +1,7 @@
+2026-11-10 09:03:25.972+0530 | main | INFO  | GenerateBlockchainConfig | Generating 4 nodes keys.
+2026-11-10 09:03:25.981+0530 | main | INFO  | GenerateBlockchainConfig | Generating keypair for node 0.
+2026-11-10 09:03:26.911+0530 | main | INFO  | GenerateBlockchainConfig | Generating keypair for node 1.
+2026-11-10 09:03:26.915+0530 | main | INFO  | GenerateBlockchainConfig | Generating keypair for node 2.
+2026-11-10 09:03:26.918+0530 | main | INFO  | GenerateBlockchainConfig | Generating keypair for node 3.
+2026-11-10 09:03:26.922+0530 | main | INFO  | GenerateBlockchainConfig | Generating QBFT extra data.
+2026-11-10 09:03:26.926+0530 | main | INFO  | GenerateBlockchainConfig | Writing genesis file.

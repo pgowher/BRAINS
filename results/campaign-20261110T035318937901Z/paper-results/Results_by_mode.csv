@@ -1,0 +1,9 @@
+mode,workload,cases,challenged,challenge_preceded_close,recorded_after_prior_challenge,recorded_while_pending_at_actual_send,advance_challenges,advance_ack_before_nominal,advance_recorded_after_prior_challenge,advance_recorded_before_challenge,advance_recorded_before_challenge_same_block,closed,blocked,uncontested,uncontested_median_ms,uncontested_p25_ms,uncontested_p75_ms,uncontested_p95_ms
+preflight,quiet,48,32,8,8,16,24,24,8,16,16,48,0,16,1006.303,999.52625,1015.0955,1993.026
+preflight,burst,384,224,164,164,12,96,96,84,12,12,384,0,160,2062.858,2035.803,2319.53325,3081.83965
+atomic-0,quiet,48,32,6,0,19,24,24,0,19,18,42,6,16,1005.4559999999999,995.4202499999999,1268.7095,1994.0217499999999
+atomic-0,burst,384,224,152,0,11,96,96,0,11,11,232,152,160,2060.4615000000003,2018.902,2181.387,2959.242
+atomic-3,quiet,48,32,32,0,0,24,24,0,0,0,16,32,16,2993.4515,2976.6582500000004,3009.92375,3033.64075
+atomic-3,burst,384,224,224,0,0,96,96,0,0,0,160,224,160,2968.7929999999997,2891.111,3041.654,3393.574
+atomic-1,quiet,48,32,5,0,20,24,24,0,20,20,43,5,16,1001.2445,992.48225,1013.66925,1269.71225
+atomic-1,burst,384,224,167,0,11,96,96,0,11,11,217,167,160,2076.729,2029.694,2151.691,2196.08

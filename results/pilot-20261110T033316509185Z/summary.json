@@ -1,0 +1,44 @@
+[
+  {
+    "mode": "preflight",
+    "workload": "pilot",
+    "cases": 3,
+    "challenged": 2,
+    "recorded": 3,
+    "blocked": 0,
+    "too_early": 0,
+    "recorded_after_finalized_challenge": 1,
+    "recorded_while_earlier_challenge_pending": 0,
+    "uncontested_n": 1,
+    "uncontested_median_ms": 1815.494,
+    "uncontested_p95_ms": 1815.494
+  },
+  {
+    "mode": "atomic",
+    "workload": "pilot",
+    "cases": 3,
+    "challenged": 2,
+    "recorded": 2,
+    "blocked": 1,
+    "too_early": 0,
+    "recorded_after_finalized_challenge": 0,
+    "recorded_while_earlier_challenge_pending": 0,
+    "uncontested_n": 1,
+    "uncontested_median_ms": 1947.681,
+    "uncontested_p95_ms": 1947.681
+  },
+  {
+    "mode": "atomic-grace",
+    "workload": "pilot",
+    "cases": 3,
+    "challenged": 2,
+    "recorded": 2,
+    "blocked": 1,
+    "too_early": 0,
+    "recorded_after_finalized_challenge": 0,
+    "recorded_while_earlier_challenge_pending": 0,
+    "uncontested_n": 1,
+    "uncontested_median_ms": 3958.735,
+    "uncontested_p95_ms": 3958.735
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "dataset_manifest_sha256": "35778ae20cf2cda8a2c719b0713ee9c3fc2158eac75fb46679f35cae44db9b9f",
+  "predictions_manifest_sha256": "63765c02dce22dd0f89bf71055349f3f59844af3cd86edea0caadbbf1c951a1a",
+  "fixtures": [
+    {
+      "pair_id": "12459edd229e04a2e540d01f80a7fc6b",
+      "control_unit": "b5610c99108bae5a49f9379802624a9f",
+      "disputed_unit": "8ef77fec6f7c0f98f6fbcc029330ebc0",
+      "receipt_count": 3,
+      "evidence_sha256": "518dec5bfcbc6f63aa9826bacda6be27a8ff977b5c42d1cf5fe43705b4d1cfc4",
+      "adverse_stream_sha256": "85c6116909545f45216296859491db663f6acd306fae58c81d17777de4af5575"
+    },
+    {
+      "pair_id": "5c521c9add28b162de541012dda7d73d",
+      "control_unit": "6d3456931d01020980acfc672db54ac1",
+      "disputed_unit": "574298e66b6ebf9e721073728ca5e4c6",
+      "receipt_count": 3,
+      "evidence_sha256": "c883bc3e787c9dd0221ef4b4d50a2b881f7cc10454f4d4948f594c1c9aa56382",
+      "adverse_stream_sha256": "28e3cb8a059307e713e0922a95093867f1ce71fb77b2fb13b95e71d3aa67cd1e"
+    },
+    {
+      "pair_id": "64d77c2a24098ee32505a07f9fdd04ec",
+      "control_unit": "03df9ba98a71a34496a0805e73e0426c",
+      "disputed_unit": "b6783de3734bd2a3e1f3c188355c2d95",
+      "receipt_count": 3,
+      "evidence_sha256": "9c6beeeea5e3f6afb06f03fe4535c80d11637c77b33f381417beb540b94060d8",
+      "adverse_stream_sha256": "e4baaa6769083b680259a1c827c206ddfe0092f98078363f4d02bf1d56a0f97c"
+    },
+    {
+      "pair_id": "8864a9239c92fd68a6c0f240e3752286",
+      "control_unit": "115acbb934d40b4da574247be4c19ba6",
+      "disputed_unit": "201d050ba41a973231df24663d8911ad",
+      "receipt_count": 3,
+      "evidence_sha256": "37af45e3ce108a7cc0ec86bcfba3b53162e45cae3b4a1965427814bc2866252d",
+      "adverse_stream_sha256": "3db39f5dda2b043fc9ec3fc59df6db4543b3f178ba33154d8c61c25804180014"
+    },
+    {
+      "pair_id": "8e2a4cf216ab7a035d9d6bcd4046f318",
+      "control_unit": "1bd87ffd004bbec0162fe5de39c17d82",
+      "disputed_unit": "6896588e889aa5dece75362cbb56e51a",
+      "receipt_count": 3,
+      "evidence_sha256": "78905e1cb544e69129670cba0b33317a6c38d024f68a788ead0d4f00677b4156",
+      "adverse_stream_sha256": "2b000c26e8b5ba9d0b1e74a997973f4d1570343bb457b7ba6436fa15e5e7a0ad"
+    },
+    {
+      "pair_id": "b37d30f67e7d82da95c5ebe04cb224e1",
+      "control_unit": "59654e4f9c33bb2e0013c6e7f5f40922",
+      "disputed_unit": "9f35295b92581deab6d5e91fcf13c38a",
+      "receipt_count": 3,
+      "evidence_sha256": "48dc1bbcadda79bdcb7ffc49e868362735c7d3311031d3685ef4cd186394ff76",
+      "adverse_stream_sha256": "eb4b2c8121d3a80f04cc8e7513f790f162dd2b5bbda1c3db6391501fa434a09e"
+    }
+  ]
+}

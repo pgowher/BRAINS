@@ -1,0 +1,40 @@
+{
+  "study": "sweep",
+  "seed": 20261110,
+  "replicates": 1,
+  "burst_width": 24,
+  "block_seconds": 1,
+  "java_options": "-Xms128m -Xmx768m -XX:ActiveProcessorCount=2",
+  "base_close_ms": 750,
+  "offsets_ms": [
+    -650,
+    -250,
+    -80,
+    0,
+    80,
+    250,
+    600,
+    null
+  ],
+  "modes": [
+    {
+      "name": "preflight",
+      "guarded": false,
+      "grace_blocks": 0
+    },
+    {
+      "name": "atomic",
+      "guarded": true,
+      "grace_blocks": 0
+    },
+    {
+      "name": "atomic-grace",
+      "guarded": true,
+      "grace_blocks": 3
+    }
+  ],
+  "contract_sha256": "1a7d065a5594d3989fdc947c2e8c48d74f62bc1bb24244408c2fdf00cf4894dc",
+  "fixture_sha256": "89270aa6de41a0708895d016675c35e675b359ec08946d1e067818b9382b31ba",
+  "besu": "besu/v26.10.2/linux-x86_64/openjdk-java-25",
+  "solc": "Version: 0.8.35+commit.47b9dedd.Linux.g++"
+}
